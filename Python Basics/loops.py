@@ -27,3 +27,70 @@ for key in thisdirectory.keys():
 # built in function to get the values of the keys
 for value in thisdirectory.values():
    print(key)
+
+
+def myfunc(funcparameter):
+   for i in funcparameter:
+      print(i)
+
+thislist = [12,13,14,15]
+myfunc(thislist)
+
+# looping through string
+for x in "Apple":
+   print(x)
+
+# range function further specs
+numbers = [12,12,12,12,12]
+
+for i in range(0,5):
+    print(numbers[i])
+
+
+# finding the even numbers 
+numbers = [0,2,4,6,8,10]
+print("Even numbers are ")
+for i in numbers:
+   if i % 2 ==0:      
+      print(" ", i)
+
+# while loop
+# example 01
+number =1
+while number < 60:
+   print(number)
+   number = number +1
+
+#    example #02
+count = 0
+while count <3 :
+    print("count is ", count)
+    count = count +1
+
+# example 03
+password = ""
+while password !="secret":
+   password = input("Enter the password")
+if password == "secret":
+      print("Login Successfull")
+else:
+      print("Login is not successfull")
+
+# program to sum of first 10 numbers
+total = 0
+num =1
+while num <=10:
+    total = total + num
+    num = num +1
+print ("total sum is = ", total)
+
+# program to check the number of letter in the word
+def count(string):
+   words = string.split()
+   return len(words)
+
+sentence = "Pakistan is an islamic country"
+word_count = count(sentence)
+print ("Number of words are ", word_count)
+
+   
