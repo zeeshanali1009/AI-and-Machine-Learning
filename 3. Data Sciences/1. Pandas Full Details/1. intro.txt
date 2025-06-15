@@ -1,0 +1,36 @@
+1. Data manipulation:
+Data manipulation means changing or organizing the data and make it usefull for the particular requirement.
+for example: In a general store organizing the store items like fruits, vegetables etc seperately.
+
+2. Data Analysis
+Data analysis means analyzig the complete data and then extracting some sort of insights from the existing data.
+for example: Analyzing the student record for getting the record of the student getting the highest or lowest marks
+
+Key Differences:
+Data manipulation:  preparing and cleaing the data, organize and structure the raw data, 
+like fixing the student grade sheet
+
+Data analysis:      extracting the insights from the data, finding the patterns,trends and solve the problems, 
+like analyzing which student have got the highest marks 
+
+
+
+What is Pandas?
+Pandas is a powerful and popular python library used for the data manipulation(cleaning, transforming and structuring data) and 
+data analysis (finding patterns, spreadsheets or time-series data) 
+
+Features:
+works seamlessly with structured data formats like CSV and excel 
+handles the missing values easily
+built on numpy for fast computations
+
+Why use Pandas?
+Performance (can handles millions of rows efficiently)
+Ease of Use (Beginner friendly syntax)
+Integration (works with ther libraries like Matplotlib(visualization) and Sickit learn)
+
+
+Use/ Application
+Finance  (Time series data or stocks data)
+Retails (store related data) 
+HealthCare (many and much healthcare related data)
