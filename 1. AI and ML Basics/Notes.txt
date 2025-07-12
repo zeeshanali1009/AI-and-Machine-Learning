@@ -6,6 +6,33 @@ Machine Learning:
 "Machine learning is the branch of artificial intelligence that makes the computer learn through examples and
 experiences. Model gets trained over the new data and this process is kept repeating time to time."
 
+Deep Learning:
+"It is the branch of the machine learning that works on the specific functions that sre called neurons as the neurons
+are being designed to carry out the specific functionality."
+
+Note:
+Every neuron is the function but every function is not the neuron.
+Example: RELU Neuron is used to find the maximum number and SIGMOID function is used to convert into the binary from.
+
+There are the two main roles as the 
+Encoders (Human centric to machine centric)
+Human language into the vector embeddings or into the numerical form to make it understandable for the computer.
+Decoders (Machine Centric to human centric)
+Vector embeddings into the human understandable language so that the human can understand it.
+This all process is being carried out by the Large Language Model.
+
+Encoders and decoders works collectively to make the Transformers.
+
+
+Natural Language Processing:
+a. Stemming:
+Remving the last few unnecessary chracters like car from caring to make it a meaningful one.
+b. Lemmatization:
+It removes the last few chracters by understanding the context as well for instance caring to care or eat from ate.
+c. Limmitization:
+It is the more intelligent form as it understands the 1st, 2nd and 3rd form of the verbs as well.
+
+
 Types of Machine Learning:
 ----- 1. Supervised Learning    (Labelled Data)
     Types of Supervised Learning:
@@ -18,6 +45,7 @@ Types of Machine Learning:
                 b. Regression:
                 "Score based answer for instance the output on the essay like asking the model what is your feedback
                  on the essay."
+
 
 ----- 2. Unsupervised Learning  (Unlabelled Data)
 "A large record of data later arranged into a group or the cluster for the easy recognition and access.
