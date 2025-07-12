@@ -63,6 +63,9 @@ It is used for the dimensionality reduction as the data with multiple inputs bei
 chracters in this type of learning which are agent, data , training. Agent is being trained by the use of the 
 data through the process of training." For instance the child learns how to ride the bicycle like working as the 
 agent in this scenario.
+There are the two types of models
+a. Training Mode (Model will be getting training)
+b. Inference Mode/Prediction Mode  (Testing of the model)
 
 
 Prompt Engineering:
@@ -94,12 +97,37 @@ c. Data Transformation:
 
 Follwinng are the steps involved into the EDA:
 -Data Cleaning
--Descriptive Statistics
-    
+-Descriptive Statistics (Summary Statistics)
+            Mean
+            Median
+            Mode (Multi model)
+            Inter Quartile Range (Q3-Q1)
+            Standard deviation
+            Dispersion
+                Less dispersion means less training of the model so the less intelligent model will become and 
+                greater dispersion means there will be the more training of the model and more intelligent will be 
+                the model.
+                Example
+                                12         34       56        78        12      34        67         89         90       23 
+                                sorting
+                                12         12       23        34        34      56        67         78         89       90
+                                min                                     34+56/2= 45                                      max
+                                                                          Q2 = 45
+                                           12+23/2=17.5                                               78+89/2=83.5
+                                           Q1 = 18                                                    Q3 = 84
+
+                                IQR = Q3 - Q1
+                                    = 84 - 18
+                                    = 66
+
 -Data Visualization
+            Data will be made visualizable
 -Data Distribution
 -Correlation Analysis
+            Relationships of the features of the dataframe among each other and how they are depended on each other.
 -Outlier detection
+            Outlier from the given range is detected and gets ignored as the outlier changes the direction in the 
+            Average getting process.
 -Data Transformation
 
 
