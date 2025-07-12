@@ -1,10 +1,26 @@
 Artificial Intelligence:
-It is a branch of computer science that enables the computer to learn without the explicit programming
-(instructions based programming telling the computer to carry out the certain tasks through the instructions).
+"It is a branch of computer science that enables the computer to learn without the explicit programming
+(instructions based programming telling the computer to carry out the certain tasks through the instructions)."
+
 Machine Learning:
-Machine learning is the branch of artificial intelligence that makes the computer learn through examples and
-experiences. Model gets trained over the new data and this process is kept repeating time to time.
+"Machine learning is the branch of artificial intelligence that makes the computer learn through examples and
+experiences. Model gets trained over the new data and this process is kept repeating time to time."
+
 Types of Machine Learning:
-1. Supervised Learning
-2. Unsupervised Learning
-3. Reinforcement Learning
+1. Supervised Learning    (Labelled Data)
+    ----Types of Supervised Learning:
+        1. Classification (Data with classes)
+        2. Regression (Score based Answers/Feedbacks)
+        Explaination
+        1. Classification: 
+        "Data is arranged into the classes for instance squares, triangles etc are already being classified as the 
+        seperated form."
+        2. Regression:
+        "Score based answer for instance the output on the essay like asking the model what is your feedback on the
+        essay."
+
+2. Unsupervised Learning  (Unlabelled Data)
+
+3. Reinforcement Learning (Action Based Learning)
+
+
