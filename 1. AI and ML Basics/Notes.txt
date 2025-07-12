@@ -7,20 +7,29 @@ Machine Learning:
 experiences. Model gets trained over the new data and this process is kept repeating time to time."
 
 Types of Machine Learning:
-1. Supervised Learning    (Labelled Data)
-    ----Types of Supervised Learning:
-        1. Classification (Data with classes)
-        2. Regression (Score based Answers/Feedbacks)
+----- 1. Supervised Learning    (Labelled Data)
+    Types of Supervised Learning:
+        a. Classification (Data with classes)
+        b. Regression (Score based Answers/Feedbacks)
         Explaination
-        1. Classification: 
-        "Data is arranged into the classes for instance squares, triangles etc are already being classified as the 
-        seperated form."
-        2. Regression:
-        "Score based answer for instance the output on the essay like asking the model what is your feedback on the
-        essay."
+                a. Classification: 
+                "Data is arranged into the classes for instance squares, triangles etc are already being classified
+                 as the seperated form."
+                b. Regression:
+                "Score based answer for instance the output on the essay like asking the model what is your feedback
+                 on the essay."
 
-2. Unsupervised Learning  (Unlabelled Data)
+----- 2. Unsupervised Learning  (Unlabelled Data)
+"A large record of data later arranged into a group or the cluster for the easy recognition and access.
+It is used for the dimensionality reduction as the data with multiple inputs being given as the single output."
 
-3. Reinforcement Learning (Action Based Learning)
+----- 3. Reinforcement Learning (Action Based Learning)
+"Action based learning which is being carried out on the basis of the feedbacks as there are the three main
+chracters in this type of learning which are agent, data , training. Agent is being trained by the use of the 
+data through the process of training." For instance the child learns how to ride the bicycle like working as the 
+agent in this scenario.
+
+
+
 
 
