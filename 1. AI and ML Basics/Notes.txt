@@ -15,22 +15,29 @@ Every neuron is the function but every function is not the neuron.
 Example: RELU Neuron is used to find the maximum number and SIGMOID function is used to convert into the binary from.
 
 There are the two main roles as the 
-Encoders (Human centric to machine centric)
-Human language into the vector embeddings or into the numerical form to make it understandable for the computer.
-Decoders (Machine Centric to human centric)
-Vector embeddings into the human understandable language so that the human can understand it.
-This all process is being carried out by the Large Language Model.
+    a. Encoders (Human centric to machine centric)
+        "Human language into the vector embeddings or into the numerical form to make it understandable for the 
+         computer."
+    b. Decoders (Machine Centric to human centric)
+        "Vector embeddings into the human understandable language so that the human can understand it.
+This all process is being carried out by the Large Language Model(Text based model or the adversal neural network)."
+Diffusion models if there is the dealing with the images
+Stable Diffusion:
+Role of encoders and the decoders for the image generation as the working is being carried out on the pixel and 
+the image is being cleared using this process. Image can also go back to the its original position as this process 
+is being used in the security purposes for the theif detection.
 
 Encoders and decoders works collectively to make the Transformers.
 
 
 Natural Language Processing:
-a. Stemming:
-Remving the last few unnecessary chracters like car from caring to make it a meaningful one.
-b. Lemmatization:
-It removes the last few chracters by understanding the context as well for instance caring to care or eat from ate.
-c. Limmitization:
-It is the more intelligent form as it understands the 1st, 2nd and 3rd form of the verbs as well.
+    a. Stemming:
+        Remving the last few unnecessary chracters like car from caring to make it a meaningful one.
+    b. Lemmatization:
+        It removes the last few chracters by understanding the context as well for instance caring to care 
+        or eat from ate.
+    c. Limmitization:
+        It is the more intelligent form as it understands the 1st, 2nd and 3rd form of the verbs as well.
 
 
 Types of Machine Learning:
@@ -39,10 +46,10 @@ Types of Machine Learning:
         a. Classification (Data with classes)
         b. Regression (Score based Answers/Feedbacks)
         Explaination
-                a. Classification: 
+            a. Classification: 
                 "Data is arranged into the classes for instance squares, triangles etc are already being classified
                  as the seperated form."
-                b. Regression:
+            b. Regression:
                 "Score based answer for instance the output on the essay like asking the model what is your feedback
                  on the essay."
 
@@ -56,6 +63,47 @@ It is used for the dimensionality reduction as the data with multiple inputs bei
 chracters in this type of learning which are agent, data , training. Agent is being trained by the use of the 
 data through the process of training." For instance the child learns how to ride the bicycle like working as the 
 agent in this scenario.
+
+
+Prompt Engineering:
+Prompt engineering deals with the methodology of prompt giving to the computer as it covers various aspects which are
+as follow:
+-Persona
+-Task
+-Steps to complete the tasks
+-Context
+-Constraints
+-Goal 
+-Format Output
+
+Exploratory Data Analysis (EDA):
+It is the process of exploring the data and perfoming the analysis over it.
+These are the steps involved into this process
+1. Data Analysis
+        Data Engineers (Classifies the data)
+        Data Analysis  (Gives analysis that what kind of model will be made through the certain type of data)
+        Data Scientists (Does everything related to the data)
+
+2. Prprocess the data (Understands the data):
+a. Data Cleaning:
+       Removing the unnecessary stuff from the data
+b. Removing the duplication:
+       Removing the duplication from the data as ther will be more light weight data
+c. Data Transformation:
+       Transforming the data from one certain form to another certain form.
+
+Follwinng are the steps involved into the EDA:
+-Data Cleaning
+-Descriptive Statistics
+    
+-Data Visualization
+-Data Distribution
+-Correlation Analysis
+-Outlier detection
+-Data Transformation
+
+
+
 
 
 
