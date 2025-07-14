@@ -12,6 +12,5 @@ this_dictionary ={
 }
 
 df  = pd.DataFrame(this_dictionary)
-print(df.head(7))                   # by default it will show the first 5 values if n is not given 
 print(df.tail(7))                   # by default it will show the first 5 values if n is not given 
  
