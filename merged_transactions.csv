@@ -1,0 +1,5 @@
+CustomerID,Name,Email,TransactionID,Amount
+101,Ali,ali@example.com,201,500
+101,Ali,ali@example.com,203,200
+102,Zara,zara@example.com,202,1500
+103,Ahmed,ahmed@example.com,204,700
