@@ -1,4 +1,4 @@
-1. Data manipulation:
+ 1. Data manipulation:
 Data manipulation means changing or organizing the data and make it usefull for the particular requirement.
 for example: In a general store organizing the store items like fruits, vegetables etc seperately.
 
@@ -34,3 +34,17 @@ Use/ Application
 Finance  (Time series data or stocks data)
 Retails (store related data) 
 HealthCare (many and much healthcare related data)
+
+
+Series:
+A series is a one-dimensional labelled array that can hold any type of data like integers, float, strings or even python objects
+Each element in the series has a unique label called an index
+It is often used to track the changes over time such as daily temperatures, stock prices or sales revenue
+
+Dataframe:
+A dataframe is a two dimensional labeled data structure in Pandas, similar to a table in a dataset, an excel spreadsheet or a SQL
+table. It consists of rows and coloumns where 
+Rows have Indices  (labels)
+Coloumns haver names   (labels)
+
+

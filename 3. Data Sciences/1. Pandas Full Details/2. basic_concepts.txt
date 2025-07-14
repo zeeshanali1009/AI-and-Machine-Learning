@@ -1,7 +1,0 @@
-Series:
-A series is a one-dimensional labelled array that can hold any type of data like integers, float, strings or even python objects
-Each element in the series has a unique label called an index
-It is often used to track the changes over time such as daily temperatures, stock prices or sales revenue
-
-
-

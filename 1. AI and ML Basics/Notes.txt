@@ -125,10 +125,17 @@ Follwinng are the steps involved into the EDA:
 -Data Distribution
 -Correlation Analysis
             Relationships of the features of the dataframe among each other and how they are depended on each other.
+            It can be positive (strong) or it can be negative (weak) relationships as well.
 -Outlier detection
             Outlier from the given range is detected and gets ignored as the outlier changes the direction in the 
             Average getting process.
 -Data Transformation
+
+A coloumn can have different names in the form of:
+
+Feature  (ML)
+Attribute  (Database)
+Variable (Statistics)
 
 
 
