@@ -1,11 +1,24 @@
 Numpy(Numerical Python) is the important python library used for the heavy calculations on the data at once.
 Normally Python lists cannot carry out the major calculations very fast so that we have to adopt some new methods
 and the patern so that the things must get very much easier.
+
 Features of Numpy:
 -Fast with high speed                   
 -takes less memory for the operations to be carry out                                       
 -Easy math operations
 -Very important in AI/ML
+
+Uses/Applications of this Library
+-Data Science                    -Machine Learning                       -Medical Research
+-Image Processing                -Stock Market                           -Finances
+
+                                    Comparison
+Python Lists                                            Numpy array
+Slow Speed                                              50-100 times fast
+More Memory                                             Less Memory 
+Need loops and more logic                               Built-In functionalities
+Used in the Small Data                                  Used in large datasets
+
 
 
 
