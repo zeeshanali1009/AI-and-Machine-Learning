@@ -1,0 +1,2 @@
+Broadcasting is used for the heavy calculations as these calculations are very heavy to perform
+It saves us from heavy looped programming calculations without using the loops 
