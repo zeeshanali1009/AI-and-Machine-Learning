@@ -1,0 +1,30 @@
+This python liobrary is basically used to convert the data into the visual form.
+
+Data Visualization:
+Representing the data into the visual form for the better understanding of the Data.
+Turning boring data (tables etc) into the meaningful form of data.
+"Pictures speak louder then the words."
+
+These are the data visualization libraries used particularly:
+Matplotlib                  Seaborn                 Plotly              Pandas(Plot)                Bookeh
+Basic & Powerful            Statistical Plots       Interactive         Quick Plots                 Interactive and
+                            on Matplotlib           Web based                                       easy one
+
+Advantages of the data visualization:
+-Saves time                          -Easy Communication                  -Spot trends and patterns
+-Better decision making              -Handles big data aswell
+
+Important Points:
+1. Human brain processes the images 60000 times faster then the other form of data like text or tables etc 
+2. Visualization can make lies. Charts or tables can also present the lies.
+3. 90% big data projects fail because the early data visualization is not easy.
+4. Human brain can hold 7 Pcs data at once.
+
+Matplotlib further expalination:
+                            Mat       Plot      Lib
+                           Matlab   Plotting   Library
+
+Chart types:
+1. Line graph                       4. Bar chart 
+2. Pie Chart                        5. Histogram
+3. Scatter Plot                     6. Custom Graphics
