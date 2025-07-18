@@ -76,3 +76,20 @@ TKAGG (by default)
 QTAAG
 WebAAG
 
+Object Oriented API:
+Pyplot 's key terms works in the backends and cannot be seen untill shown through the show() but in the major 
+projects we need the protocls for the better control over the graphs.
+
+                                    Differences 
+Pyplot                                                         Object Oriented API
+Like a State machine                                           
+Easy scripts                                                   Large projects
+Global State                                                   We confiure it by own 
+Not precise                                                    More 
+
+
+
+
+
+
+
