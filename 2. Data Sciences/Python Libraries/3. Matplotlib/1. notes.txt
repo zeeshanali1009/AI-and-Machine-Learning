@@ -28,3 +28,51 @@ Chart types:
 1. Line graph                       4. Bar chart 
 2. Pie Chart                        5. Histogram
 3. Scatter Plot                     6. Custom Graphics
+
+
+Matplotlib.pyplot :
+pyplot is the package inside the library pyplot to manage and handle different types of functionalities.
+
+Key terms of the Matplotlib Library:
+1. Datapoint:
+datapoints are the main points of the data through which the whole data is represented in the form of x-axis or y-axis.
+2. Figure:
+A complete canvas where the visualization is being carries out.
+3. Axes:
+Graph box, An area on the canvas/figure where only the graph will be plotted.
+4. Plot:
+Line,bar,point which we draw in the graph.
+5. Marker:
+It is the symbol or dot for the visibility of the data.
+6. Line:
+It is the continuous connection between the data.
+7. LineStyle:
+It explains how this connection will be built.
+8. Color:
+It explains that what will be the color of the line,marker
+9. Legend:
+A small box that tells what are the different colors are representing.
+10. Label:
+It represents/explains what the x-axis or y-axis are representing.
+11. Title:
+It represents the title of the graph.
+12. Grid:
+These are the lines background of the graph (line graph, scatter graph)
+13. Function:
+Block of the code to carry out the certain functionality.
+14. Method:
+Functions which are used in the advance programming like in OOP.
+15. Parameters:
+Parameters is the information given to the function for the controlling.
+16. keywords Arguments:
+Kewords or the arguments are the values which are being given to the parameters for the better control over the function.
+17. Object Oriented API:
+Advance method for the graph plotting.
+18. DPI (Dot per Inches):
+It specifies the clarity or resolution of the graphs.It conrols the graph of graph.
+19. Backend:
+This backend represents the backends which are used to save the graphs.
+TKAGG (by default)
+QTAAG
+WebAAG
+
