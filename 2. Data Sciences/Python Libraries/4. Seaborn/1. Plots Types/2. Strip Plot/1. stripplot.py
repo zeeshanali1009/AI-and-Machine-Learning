@@ -1,17 +1,18 @@
+# Strip plot in Seaborn is used to display the distribution of a categorical variable against a numeric variable — like a scatter plot,
+#  but aligned along a category axis.
 
-import seaborn as sns 
+import seaborn as sns
 import matplotlib.pyplot as plt
-import pandas as pd 
-import numpy as np
 
-print(sns.get_dataset_names())
+# Load data
+penguins = sns.load_dataset("penguins")
 
+# Basic strip plot
+sns.stripplot (data=penguins, x="species", y="body_mass_g" , dodge= True, jitter = True )
+# dodge will spread my datapoints based on the hue
+# jitter has been added for the better readability as the jitter spreads the datapoints on the far
 
-penguins  = sns.load_dataset("penguins")
-print(penguins.head())
-
-
-
-sns.scatterplot(data=penguins, x="flipper_length_mm", y="body_mass_g", hue="island")        
-# hue means that the species are been scattered on the basis of islands
+plt.title("Body Mass Distribution by Penguin Species")
+plt.xlabel("Species")
+plt.ylabel("Body Mass (g)")
 plt.show()
