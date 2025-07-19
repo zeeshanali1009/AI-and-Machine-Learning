@@ -85,7 +85,13 @@ Pyplot                                                         Object Oriented A
 Like a State machine                                           
 Easy scripts                                                   Large projects
 Global State                                                   We confiure it by own 
-Not precise                                                    More 
+Not precise        
+
+
+Subplots and Layouts Adjustments:
+Subplots means there are different charts availabe for the comparison purposes and there adjustment has to be done.
+This method of subplotting is also used in the EDA(Exploratory Data Analysis)                                            More 
+
 
 
 
