@@ -140,6 +140,10 @@ Variable (Statistics)
 
 Classification:
 Classification is a machine learning tecnology used to predict the categorical data or discrete target variables.
+It is one of the type of supervised learning which is carries out usiing the input/output pairs as the complete 
+process is supervised.Models are also trained using the Input/Output pairs.
+In classification the response will always be nominal/categorical/label data.
+In classification, the classification name is classification label.
 Types of Classification:
 1. Binary Classification
     There can only be two states at one time either it is yes(1) or it is no(0).Now here the values are numeric but 
@@ -151,6 +155,46 @@ Types of Classification:
 Target Variables:
 It is the variable we want to predict.
 It represents the outcome or label we are interested in.
+EDA helps us to find the target variable.
+
+There are two types of the variables which are as follow:
+Dependent                               Independent
+values depends upon                     Values does not depends upon 
+other features                          other features.
+EDA is done in the data engineering and it is done before providing the data to the ML engineer for the
+machine learning purposes like the model training.
+Regression:
+It is a statistical technique used to model the relationship between a dependant variable and one or more
+independent variables.
+Dependent variables are said as "outcome" or "target".
+Independent variables are said as "variables" or "features".
+                                                Differences
+Regression                                                         Correlation
+-Predicts the values of dependant                |       -Access the strength and direction of the
+variable based on independent                    |       linear relationship between variables.
+variables.                                       |
+-Predictive and Exploratory Modelling            |       -Descriptive analysis
+-Provides the values which represents            |       -Gives a single-value (corelation-efficient)
+the effect.                                      |        representing the strenght of corelation.
+Logistic Regression(classification):
+It is a type of analysis for predicting the binary outcomes (two categories) 
+For example: predicting whether a student will pass (1) or the student will fail(0).
+having some sort of probability.
+Graph:
+                              |
+                            1 |__________________******_______
+      Dependent               |
+        Varibles              |
+                          0.5 |---------------*-------------   Threshold
+                              |
+                              |
+                          0   |__*******_______________________
+                                  Independent variables       x
+
+It gives two numbers (0,1) in binary.Regression gives the value which gives the insights.
+Dimensionality Reduction:
+Data trimming/ Removing the irrelevant information.
+If dataset have 12 cols it means that the dataset have 12 dimensions
 
 Scikit-learn:
 It is the popular python library used for the classification, regression and clustering aswell.
@@ -159,6 +203,9 @@ Data Splitting
 Data is splitted into two different categories which are as:
 Training Data
 Testing Data
+
+
+
 
 
 
