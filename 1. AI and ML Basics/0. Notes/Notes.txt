@@ -138,6 +138,33 @@ Attribute  (Database)
 Variable (Statistics)
 
 
+Classification:
+Classification is a machine learning tecnology used to predict the categorical data or discrete target variables.
+Types of Classification:
+1. Binary Classification
+    There can only be two states at one time either it is yes(1) or it is no(0).Now here the values are numeric but 
+    we know the numeric answer/output is possible only in the regression and here 0,1 are numeric although it is in
+    classification. So these numeric numbers are just for the representation, numeric operations cannot be performed
+    on them.
+2. Multi-class Classification
+    More than two classes at one time.
+Target Variables:
+It is the variable we want to predict.
+It represents the outcome or label we are interested in.
+
+Scikit-learn:
+It is the popular python library used for the classification, regression and clustering aswell.
+
+Data Splitting
+Data is splitted into two different categories which are as:
+Training Data
+Testing Data
+
+
+
+
+
+
 
 
 
