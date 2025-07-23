@@ -1,0 +1,147 @@
+Scikit-learn
+Scikit-learn (sklearn) is a powerful and easy-to-use Python library for machine learning. It provides 
+efficient tools for:
+Classification
+Regression
+Clustering
+Dimensionality reduction
+Model selection
+Data preprocessing
+
+It is built on NumPy, SciPy, and Matplotlib.
+Model Training in Scikit-learn:
+The basic workflow for model training in scikit-learn involves:
+1. Importing a dataset (or loading your own).
+2. Splitting the data into training and testing sets.
+3. Choosing a model (e.g., Decision Tree, KNN, etc.).
+4. Training the model using .fit().
+5. Making predictions using .predict().
+6. Evaluating performance using metrics like accuracy_score.
+
+Supervised Learning
+Supervised learning uses **labeled data** (input features + target output).
+1. Classification
+
+Goal: Predict categories/classes (e.g., spam or not spam).
+Examples:
+  Predicting the species of a flower (Setosa, Versicolor, Virginica).
+  Classifying emails as spam or not.
+Algorithms:
+  * Decision Tree
+  * Logistic Regression
+  * K-Nearest Neighbors (KNN)
+  * Random Forest
+  * Support Vector Machines (SVM)
+2. Regression
+
+Goal: Predict continuous values (e.g., house price).
+Examples:
+  Predicting temperature
+  Predicting a person's salary based on experience
+Algorithms:
+  * Linear Regression
+  * Ridge Regression
+  * Lasso Regression
+  * Decision Tree Regressor
+Unsupervised Learning
+Unsupervised learning deals with **unlabeled data** (no target output). The system tries to find patterns or structures.
+1. Clustering
+Goal: Group data into clusters based on similarity.
+Examples:
+  Customer segmentation
+  Grouping similar documents
+Algorithms:
+
+  K-Means
+  DBSCAN
+  Agglomerative Clustering
+
+2. Anomaly Detection
+
+Goal: Identify rare or abnormal data points.
+Examples:
+
+  Fraud detection in credit card transactions
+  Detecting outliers in sensor data
+Data Preprocessing
+Before training a model, data must be cleaned and prepared. This process is called preprocessing.
+1. Dropping (Removing) Columns/Rows
+
+Used to remove unnecessary or irrelevant data (e.g., ID columns).
+Also used to remove rows/columns with too many missing values.
+
+for example
+import pandas as pd
+df = pd.read_csv("data.csv")
+# Drop a column
+df = df.drop("unnecessary_column", axis=1)
+# Drop rows with missing values
+df = df.dropna()
+
+2. Imputation (Filling Missing Data)
+
+Used to fill missing values instead of dropping them.
+Techniques:
+
+ Fill with mean, median, or mode.
+Use forward or backward fill.
+
+for example
+# Fill missing values with mean
+df['age'] = df['age'].fillna(df['age'].mean())
+
+3. Feature Engineering
+
+Creating new meaningful features from existing ones.
+Helps improve model performance.
+
+Examples:
+
+Extracting day/month/year from a date.
+Creating a new column like BMI = weight / height².
+
+for example
+df['bmi'] = df['weight_kg'] / (df['height_m'] ** 2)
+
+
+4. Data Encoding
+
+Converts categorical values into numerical form.
+Algorithms only work with numbers.
+
+(a)Label Encoding
+Converts each category into a unique number.
+
+for example
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+df['gender'] = le.fit_transform(df['gender'])
+(b) One-Hot Encoding
+Converts categories into binary columns.
+
+for example:
+df = pd.get_dummies(df, columns=['city'])
+
+5. Data Scaling (Normalization)
+
+Used to bring features to the same scale.
+Important for distance-based models (e.g., KNN, SVM).
+
+(a) Standard Scaling
+
+ Scales data to have mean = 0 and std = 1.
+
+for example:
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+scaled = scaler.fit_transform(df[['height', 'weight']])
+
+Min-Max Scaling
+
+Scales data between 0 and 1.
+
+python
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+scaled = scaler.fit_transform(df[['age', 'income']])
+
