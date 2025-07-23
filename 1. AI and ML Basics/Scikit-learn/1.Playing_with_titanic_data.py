@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load dataset
 df = sns.load_dataset('titanic')
 
-# Impute missing values (safe way, no warnings)
+# Impute missing values 
 df['age'] = df['age'].fillna(df['age'].mean())
 df['embarked'] = df['embarked'].fillna(df['embarked'].mode()[0])
 df['fare'] = df['fare'].fillna(df['fare'].median())
