@@ -185,13 +185,47 @@ Graph:
                             1 |__________________******_______
       Dependent               |
         Varibles              |
-                          0.5 |---------------*-------------   Threshold
-                              |
+                          0.5 |---------------*-------------   Threshold        Actually there is a s type line on the
+                              |                                                 graph too
                               |
                           0   |__*******_______________________
                                   Independent variables       x
 
 It gives two numbers (0,1) in binary.Regression gives the value which gives the insights.
+
+Linear Regression:
+It is widely used in various fields , including finance, economics, and data sciences.Great for making the predictions 
+and understanding the relationship between variables.
+Score whcich is based on the lines.
+Graph:
+                              |             *-
+                            1 |     -  -   *-
+      Dependent               |    -  ---*-
+        Varibles              |    -  -*-
+                          0.5 |    -*- -                                       Actually there is a s slope line on the
+                              |   *  -----                                          graph having multiples around it.
+                              | *
+                          0   |*_________________________
+                                  Independent variables       x
+We have to choose the line which must be close to the datapoints.Linear regression model chooses that line as well.
+Line/Actual line/Ideal Line  is like  y =mx +c  (Slope intercept form)
+Y: Dependant variable (Output)
+x: InDependant variable (Input/feature)
+m: Slope of line (how much y changes when x is 0)
+c: the y intercept (the value of y when x is 0)
+
+Loss/Error:
+How far the line is from the datapoints
+Actually when the error is in negative we have to extract the positive out of it to take the positive out of errors.
+Mean Squared Error(MSE):
+It ia common evaluation metric used in the regression task. It measures the average squared difference between the 
+actual line and predicted line.
+As MSE increases the Line Increases
+As MSE decreases the Line decreases
+Mean Absolute Error:
+Taking the absolute value from the complete value 
+for example : 40 from -40
+
 Dimensionality Reduction:
 Data trimming/ Removing the irrelevant information.
 If dataset have 12 cols it means that the dataset have 12 dimensions
