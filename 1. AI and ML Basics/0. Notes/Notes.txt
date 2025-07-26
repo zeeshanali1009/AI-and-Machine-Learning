@@ -370,6 +370,107 @@ Freelancing           High                    High                  yes
 Software house        Low                     Medium                no
 
 Now we have to make the decision tree from it as well like
+--------------------------------------------------------------------------------------------------------------------
+Evaluation Metrics for the models:
+There exists different evaluation metric for the models to verify whether they are performing or not.
+1. Accuracy:
+It is applied only on the classification, not applicable on the regression.
+It is the ratio of number of correct predictions to the total number of input predictions.
+formula:                  Accuracy  = Number of correct predictions
+                                      -----------------------------
+                                      Total number of predictions
+It works only if there are equal number of samples belonging to each class.
+
+Class Imbalance:
+It is the imbalance of the data between two classes as:
+
+                |   -----   
+                |   |   |
+                |   |   |
+                |   |   |   
+                |   |   |   ----
+                |   |   |   |  |
+                ---------------------------
+                    90%     10%
+
+                                              Differnce
+            Imbalance                          |                         Skewness
+            it is only found in the            |                      It is found only in the numerical
+            categorical data                   |                       data.
+
+Data Balance:
+If the classes have the balance like 50% - 50% 
+or 60% - 40% is also acceptable.
+
+Evaluation Metrics:
+1. Confusion Metrics:
+it gives us a metrix as the output and describes the complete performance of the model.
+These are the following terminologies:
+  a. True Positives:
+  If the predicted value is Yes, we were also interseted in Yes and the actual value was also Yes 
+  then it is true positive.
+  for example: 
+  If we have given the model a picture of cat and we are interested in the output of the cat as well then
+  the model also gives the picture of cat then it is true positives.
+  b. True Negatves:
+  If the predicted value is No, we were also interseted in No and the actual value was also No 
+  then it is true negatives.
+  for example: 
+  If we have given the model a picture of non-cat and we are interested in the output of the non-cat as well then
+  the model also gives the picture of non-cat then it is true negatives.
+  c. False Negatves:
+  If the predicted value is No, we were interseted in Yes and the actual value was also Yes 
+  then it is false negatives.
+  for example: 
+  If we have given the model a picture of cat and we are interested in the output of the cat as well then
+  the model gives the picture of non-cat then it is false negatives.
+  c. False Positives:
+  If the predicted value is Yes, we were interseted in No and the actual value was also No 
+  then it is false negatives.
+  for example: 
+  If we have given the model a picture of non-cat and we are interested in the output of the non-cat as well then
+  the model gives the picture of cat then it is false positives.
+
+                                        Actual
+                              Positive(1)   Negative(0)
+                              ---------------------------
+               Positive(1)    |     TP      |     FP    |          
+                              |             |           |
+    Predicted                 |--------------------------    
+                              |      FN     |     TN    |
+               Negative(0)    |             |           |  
+                              ---------------------------
+                
+                Now the Accuracy in this case will be:
+     Accuracy  = True Positives + True Negatives
+                  -------------------------------
+                          Total Predictions
+
+1. Confusion Metrics- Precison:
+     Precision  =         True Positives
+                  -------------------------------
+                  True Positives + False Positives
+It is the number of correct positive results divided by the number of positive results predicted by the classifiers.
+Precision emphasises on minimizing the false positives.
+It is interested in the predictions.
+Use Case: Predicted disease but actually healtly
+
+1. Confusion Metrics- Recall:
+     Recall  =         True Positives
+                  -------------------------------
+                  True Positives + False Negatives
+it is the ratio of predicted positive instances to total actual positive instances.
+Recall emphasises on minimizing the false negatives.
+It is interested in the predictions.
+Use Case: Predicted healthy but actually diseased.
+In general the confusion metrics have two diagonals, if the true values diagonal is heravy then the model is 
+good and if the false diagonal is heavy then the model is not good.
+
+
+
+
+                    
+
 
 
                                 
