@@ -372,6 +372,7 @@ Software house        Low                     Medium                no
 Now we have to make the decision tree from it as well like
 --------------------------------------------------------------------------------------------------------------------
 Evaluation Metrics for the models:
+This all the following evaluation will be only done on the binary classification models only.
 There exists different evaluation metric for the models to verify whether they are performing or not.
 1. Accuracy:
 It is applied only on the classification, not applicable on the regression.
@@ -466,3 +467,11 @@ It is interested in the predictions.
 Use Case: Predicted healthy but actually diseased.
 In general the confusion metrics have two diagonals, if the true values diagonal is heravy then the model is 
 good and if the false diagonal is heavy then the model is not good.
+
+there are multiple model bulding algorithms like decision tree, random forest , logistic regression bu why the grading boosting classifiers 
+have always the highest accuracy?
+Answer:
+Unlike Random Forest (which builds many independent trees and takes their average), Gradient Boosting builds one tree at a time, 
+and each new tree learns from the mistakes of the previous ones.
+It tries to reduce the error of the previous model step-by-step (this is the "gradient" part — it minimizes the loss function gradually).
+for example : Imagine a student correcting mistakes after every exam. By the end, their performance is more refined.
