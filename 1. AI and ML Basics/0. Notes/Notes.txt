@@ -401,7 +401,8 @@ It is the imbalance of the data between two classes as:
 Data Balance:
 If the classes have the balance like 50% - 50% 
 or 60% - 40% is also acceptable.
-
+Accuracy does not always gives the good model check it sometimes confuses us by giving the higher values but 
+actualy the model is not trained good. so we have to use some other metrics as well to check the model.
 Evaluation Metrics:
 1. Confusion Metrics:
 it gives us a metrix as the output and describes the complete performance of the model.
@@ -465,26 +466,3 @@ It is interested in the predictions.
 Use Case: Predicted healthy but actually diseased.
 In general the confusion metrics have two diagonals, if the true values diagonal is heravy then the model is 
 good and if the false diagonal is heavy then the model is not good.
-
-
-
-
-                    
-
-
-
-                                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
