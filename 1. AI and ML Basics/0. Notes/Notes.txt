@@ -1,3 +1,4 @@
+--------------------------------------------------------------------------------------------------------------------
 Artificial Intelligence:
 "It is a branch of computer science that enables the computer to learn without the explicit programming
 (instructions based programming telling the computer to carry out the certain tasks through the instructions)."
@@ -38,8 +39,7 @@ Natural Language Processing:
         or eat from ate.
     c. Limmitization:
         It is the more intelligent form as it understands the 1st, 2nd and 3rd form of the verbs as well.
-
-
+--------------------------------------------------------------------------------------------------------------------
 Types of Machine Learning:
 ----- 1. Supervised Learning    (Labelled Data)
     Types of Supervised Learning:
@@ -67,7 +67,7 @@ There are the two types of models
 a. Training Mode (Model will be getting training)
 b. Inference Mode/Prediction Mode  (Testing of the model)
 
-
+--------------------------------------------------------------------------------------------------------------------
 Prompt Engineering:
 Prompt engineering deals with the methodology of prompt giving to the computer as it covers various aspects which are
 as follow:
@@ -94,7 +94,7 @@ b. Removing the duplication:
        Removing the duplication from the data as ther will be more light weight data
 c. Data Transformation:
        Transforming the data from one certain form to another certain form.
-
+--------------------------------------------------------------------------------------------------------------------
 Follwinng are the steps involved into the EDA:
 -Data Cleaning
 -Descriptive Statistics (Summary Statistics)
@@ -129,14 +129,14 @@ Follwinng are the steps involved into the EDA:
 -Outlier detection
             Outlier from the given range is detected and gets ignored as the outlier changes the direction in the 
             Average getting process.
--Data Transformation
+-Data Transformation:
+            Data is transformed from one place into the other one.
 
 A coloumn can have different names in the form of:
-
 Feature  (ML)
 Attribute  (Database)
 Variable (Statistics)
-
+--------------------------------------------------------------------------------------------------------------------
 
 Classification:
 Classification is a machine learning tecnology used to predict the categorical data or discrete target variables.
@@ -156,7 +156,7 @@ Target Variables:
 It is the variable we want to predict.
 It represents the outcome or label we are interested in.
 EDA helps us to find the target variable.
-
+--------------------------------------------------------------------------------------------------------------------
 There are two types of the variables which are as follow:
 Dependent                               Independent
 values depends upon                     Values does not depends upon 
@@ -176,6 +176,7 @@ variables.                                       |
 -Predictive and Exploratory Modelling            |       -Descriptive analysis
 -Provides the values which represents            |       -Gives a single-value (corelation-efficient)
 the effect.                                      |        representing the strenght of corelation.
+--------------------------------------------------------------------------------------------------------------------
 Logistic Regression(classification):
 It is a type of analysis for predicting the binary outcomes (two categories) 
 For example: predicting whether a student will pass (1) or the student will fail(0).
@@ -192,6 +193,7 @@ Graph:
                                   Independent variables       x
 
 It gives two numbers (0,1) in binary.Regression gives the value which gives the insights.
+--------------------------------------------------------------------------------------------------------------------
 
 Linear Regression:
 It is widely used in various fields , including finance, economics, and data sciences.Great for making the predictions 
@@ -229,7 +231,7 @@ for example : 40 from -40
 Dimensionality Reduction:
 Data trimming/ Removing the irrelevant information.
 If dataset have 12 cols it means that the dataset have 12 dimensions
-
+--------------------------------------------------------------------------------------------------------------------
 Scikit-learn:
 It is the popular python library used for the classification, regression and clustering aswell.
 
@@ -238,6 +240,71 @@ Data is splitted into two different categories which are as:
 Training Data
 Testing Data
 
+--------------------------------------------------------------------------------------------------------------------
+Evaluation metrics for different models:
+If the model is giving too much big MSE error, what could be the problems?
+Data preprocessing falults (might be)
+feature engineering required  (might be)
+One thing is sure, error will stay forever, the problem is how to mitigate (minimize) this error.
+MSE is directly porportional to the models performance.
+A plane has the 2d or 3d graph (graph between the dependent and independent variables)
+(most of the times the dependent variable is one while the independent variables are more then one.)
+Data Preprocessing:
+Data reduction
+Data Transformation
+Now, this is the main problem for the models to give the mse value more like there exists many features whose values 
+are in different ranges which are need to be in the same range for the better performance of the model.We have
+some standards to bring them in the same range which are as follow:
+MinMax Scaler
+ZeroScale/Standard Scaler
+Standardization:
+it is the type of data preprocessing that makes the different features have a similar scale. like in (0,1 range)
+
+Differnt Regression Techniques:
+1. Decision Tree Regression:
+It involves the partitioning of the data into subsets based on the values of the independent variables and predict
+the average of the target variable.
+for example you have 100 different records of the players and you have given these records to the 5 categories
+of differnt people (0-25), (26,50), (51,75), (76,100). Now you can get the score of the individual player easily
+by calling the group which have the record of that particular player.
+Like it is in this pattern:
+                                         0
+                                       *  *
+                                      *     *
+                                    *         *
+                                    0          0
+                                  *   *       *  *
+                                *       *    *    *
+                                0        0   0      0
+
+2. Random forest regressor:
+it is the learning method that creates the multiple decision trees during training and outputs the average 
+prediction (for regression) from all individual trees
+for example: Suppose you are in a sitting of 10 differt people and you have to make the decision on one particular
+thing then you have 10 differnt people for the advice purposes and there advice also acts as the vote
+in the form of pattern it would be like:
+                                        x
+                                       *  *
+                                      *     *
+                                    *         *
+                                  Tree       Tree   upto tree(n)
+                                    *          *            *
+                                     *        *            *
+                                       *     *            *
+                                         *  *           *
+                                           +
+                                           y(outcome/result)
+
+3. Gradient Boosting Regressors:
+it is the extension of decision trees.
+gradient boosting is learning techniques hat builds multiple decision trees sequentially each one correcting
+the error of predecessors
+for example: you have a sitting of 10 people and every person gives you an advice to move on and you act upon the 
+advises and if you make a fault after following up the advise then once again you take up the advise and act upon it
+and this process goes on.
+-------------------------------------------------------------------------------------------------------------------
+                                    
+                                
 
 
 
