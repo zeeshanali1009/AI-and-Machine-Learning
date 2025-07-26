@@ -303,7 +303,75 @@ for example: you have a sitting of 10 people and every person gives you an advic
 advises and if you make a fault after following up the advise then once again you take up the advise and act upon it
 and this process goes on.
 -------------------------------------------------------------------------------------------------------------------
-                                    
+Further Explaination of Evaluation Metrics:
+Entropy:
+Measure of impurity.
+for example: we have the three containers which have the eggs and candies in them like:
+Container 01                       Container 02                     Container 03
+| eccececec |                     | eeeeeeeee |                     | eeeeeeeee |
+| ecececcec |                     | ccccccccc |                     | eeeeeeeee |
+| ecececeec |                     | eeeeeeeee |                     | eeeeeeeee |
+|-----------|                     |-----------|                     |-----------|
+More Impurity                     Less Impurity                      No Impurity
+More Entropy                      Less Entropy                       No Entropy
+Entropy is used to find the target variable, as we want that feature as the target variable whose entropy is less
+means that it must have less impurity into it. 
+In the decision tree, there is the decision going on every node, in fact the decision is represented by the node
+On the leaf, there is the only single class.
+Decision tree is the computation friendly.
+It can also work with the categorical data although other algorithms mostly likes to work with the other form of
+data (mostly numeric).
+
+Decision Tree Classifiers:
+it makes the decision by splitting the data into a smaller subsets based on the values of input features
+ultimately assigned a class label to each data point.It constructs a tree like data structure of decision rules 
+that can be used for prediction and is easy to interpret.
+
+Random Forest Classifier:
+It is the ensemble learning method that creates the multiple decision trees during training and outputs the 
+average prediction from all the individual trees.
+It will have different root nodes as different target variables(can be multiple as the multiple trees are 
+in the forest with different feature as the target variable)
+
+Ensemble: 
+Ensemble learning is a machine learning technique that combines the predictions generalizations. Instead of relying 
+on a single model ensemble methods create a "commitee" of models and aggregate their predictions to make a final 
+decision.
+
+Min/Max Scaling:
+It is a data normalization technique used to transform the data into a specific range.
+formula :       x' = x- min(x)/ max(x) - min(x)   (1-0)
+it saves the computational power as well.
+For example:        Normalize the data [200,300,400,600,1000]
+                    min(x)  = 200           max(x)  = 1000
+                    scaled(x)  = (200-200)/(100-200)* (1-0)
+                    = 0
+                    same like this the complete form would be like
+                    [0, 0.125, 0.25, 0.5, 1]
+
+Z-Score Scaling:
+It is also knowns as the standardization, is a technique used to transform the data into a standard normal 
+Distribution.
+formula :             Z=   score  - mean / standard deviation
+For example:        Normalize the data [200,300,400,600,1000]
+                    min(x)  = 200           max(x)  = 1000
+                    mean  = 50
+                    standard deviation = 286.4789
+                    now the transformed dataset will be like
+                    [-1.047, 0.698, -0,349, 0.349, 1.747]
+Now we have an exampele as 
+Suppose a dataset like: (have 4 features)
+Business              Competetion             Values                Profit
+Freelancing           Low                     Low                   Yes
+E-Commerce            Medium                  Medium                No
+E-Commerce            High                    High                  No
+Software house        Low                     Medium                Yes
+Freelancing           High                    High                  yes
+Software house        Low                     Medium                no
+
+Now we have to make the decision tree from it as well like
+
+
                                 
 
 
