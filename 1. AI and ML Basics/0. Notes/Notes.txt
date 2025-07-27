@@ -461,6 +461,7 @@ Use Case: Predicted disease but actually healtly
      Recall  =         True Positives
                   -------------------------------
                   True Positives + False Negatives
+
 it is the ratio of predicted positive instances to total actual positive instances.
 Recall emphasises on minimizing the false negatives.
 It is interested in the predictions.
@@ -468,10 +469,56 @@ Use Case: Predicted healthy but actually diseased.
 In general the confusion metrics have two diagonals, if the true values diagonal is heravy then the model is 
 good and if the false diagonal is heavy then the model is not good.
 
-there are multiple model bulding algorithms like decision tree, random forest , logistic regression bu why the grading boosting classifiers 
+there are multiple model bulding algorithms like decision tree, random forest , logistic regression bu why 
+the grading boosting classifiers 
 have always the highest accuracy?
 Answer:
-Unlike Random Forest (which builds many independent trees and takes their average), Gradient Boosting builds one tree at a time, 
+Unlike Random Forest (which builds many independent trees and takes their average), Gradient Boosting builds one 
+tree at a time, 
 and each new tree learns from the mistakes of the previous ones.
-It tries to reduce the error of the previous model step-by-step (this is the "gradient" part — it minimizes the loss function gradually).
+It tries to reduce the error of the previous model step-by-step (this is the "gradient" part — it minimizes 
+the loss function gradually).
 for example : Imagine a student correcting mistakes after every exam. By the end, their performance is more refined.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Tensor Flow
+We have studied the conventional machine learning uptill now. They cannot process the raw data.This is one of the 
+limitation (constraint) of the conventional learning.ML models (regressors, classifiers, random forest ,trees) 
+find much difficult to handle the structure data.
+
+Deep Learning:
+Neural networks are used instead of the conventional machine learning models (regressors, classifiers).
+It is the branch of machine learning used to perform the specific tasks.
+                                          Artificial Neurons
+                                                  |
+                                                  |
+                                                  |
+                                                  |
+                                      Artificial Neural network
+Linear models do not work in a certain scope
+So, here the clear differnce can be seen clearly as
+Machine Learning:
+
+Car as input ------>  Person extracting features ------> Classification ------> Output
+
+Deep Learnig:
+
+Car as input ------> extracting features + Classification ------> Output
+
+Neuron is actually a function to used to perform a specific task.
+max() function is used as the RELU function.
+
+TensorFlow:
+It is a open-source machine learnig framework developed by Google. It enables building, training, and deploying
+machine learning models.
+It is used for the machine larning tasks.
+It is versatile for other types of ML.
+Loss:
+Distance between the actual and predicted labels defines the loss.Loss must be less or close to 0.
+Converge:
+In tensorflow blackground, if we see the distribution boundary seperates the two classes very quickly then the 
+process is called the converge.
+
+
+
+
