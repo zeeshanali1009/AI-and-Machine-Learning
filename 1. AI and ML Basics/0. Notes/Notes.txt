@@ -518,6 +518,78 @@ Distance between the actual and predicted labels defines the loss.Loss must be l
 Converge:
 In tensorflow blackground, if we see the distribution boundary seperates the two classes very quickly then the 
 process is called the converge.
+---------------------------------------------------------------------------------------------------------------------
+
+
+Hyper-Parameters of neural network
+                                        Differnce
+Parameters                                                          Hyper-parameter
+Parameters are extracted from the                                   Hyper-paramter are extracted from the 
+data.                                                               hit and trial method/prctice.
+For example: we have a ball to throw into a basket with some particular trajectory. So, we try different 
+trajectories again and again to put the ball into the basket. So these trajectories are being used by the 
+hit and trial method.
+
+Hyper parameters of the neural network model are as:
+Epoochs
+Learning rate
+activation
+
+1. Gradient Descent: (gradient means slope while the descent means the downwards)
+It is the hyperparameter that controls the step size during gradient descent optimization.It determines how 
+quickly models adjusts its parameters in the direction that reduces the loss.
+Higher learning rate might leads to the faster convergence.but risks the over-shooting aswell while the 
+lower rate might lowers the convergence.
+For example: you are at the top  of the mountain and you have to come down the mountain then you will come down 
+using the steps or you will come down using some step size aswell. This step size is called the learning rate
+and if the learning rate (step size ) is suitable you will reach the bottom (valley) within a suitable time.
+This is called convergence
+and if the learning rate (step size ) is fast then you might not converge and you will again climb up the other 
+mountain aswell and this is called the divergence.
+  Learning rate:
+  learning rate is the subpart of the gradient descent or you can say that the learning rate is being used in 
+  the gradient descend.
+
+2. Batch size
+Batch is the subset of the dataset used in each iteration of the learning process.
+instead of processing the entire dataset we process these small subparts(batches)
+Let's dive into deep:
+Suppose you have a computer which have some specific memory limit and if that memory limit gets exceeded then 
+the memory might get crashed. So, the solution is to use the batches(small memory chunks) which can be processed 
+sequentially and the memory might work in easy flow as well.
+for example : In academies we attempt the test of the specific book for the 16 times in a compete test session
+it means that we are not able to memorize the complete book collectively so we decided to make the small batches 
+so that these batches (tests) helps us to memorize the complete book easily. 
+So the process of pasing through all the tests and coming to the stage that you have memorized the complete book
+is called one epoch. 
+Number of Epochs:
+number of times the complete dataset is senn by the model during the process of training. Too few epochs might 
+result into the underfitting and too many epoochs might results into the overfitting.
+
+Activation Functions:
+it determine the function applied to the ouputs of each neuron to introduce the non-linearity.
+Example:
+ReLU (Rectified Linear Unit)
+Softmax
+
+
+Binary classification   results the two outcomes either it is 0(no) or it is 1 (yes)
+For example: Sigmoid results into 0  or 1.
+sigmoid is the logistic regression
+but if we have the multi classes like we want to identify the multiple shapes then here the sigmoid cannot work 
+because it can work only with the binary classification models as the sigmoid returns only (0,1)
+So, we will be using the softmax here as it can work on the multi-class framework aswell.
+
+
+In the neural network:
+Input                                   Hidden                                        Output
+data provided                           passing on the information                    Decision are taken on the 
+                                        from one neuron/activtion                     passed(narrowed down) information
+                                        function to another                           and the output is generated.
+                                
+
+
+
 
 
 
