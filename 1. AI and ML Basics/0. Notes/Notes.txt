@@ -586,11 +586,57 @@ Input                                   Hidden                                  
 data provided                           passing on the information                    Decision are taken on the 
                                         from one neuron/activtion                     passed(narrowed down) information
                                         function to another                           and the output is generated.
-                                
-
-
-
-
-
-
-
+                              
+----------------------------------------------------------------------------------------------------------------------
+practice:
+ReLU and SIGMOID can work only on the single neuron while the SOFTMAX can work on the multiple neuron
+OR
+ReLU and SIGMOID can work only with the binary classification while the SOFTMAX can work with the multi-class classification aswell
+i want to build a neural network model actually its contains the images of handwritten numbers present in the mnist data involved in the dataset of python 
+python framework.
+It involves the following steps:
+1. Required Packages and data
+2. Data Splitting
+3. Dataset Display
+	(Number like handwritten)
+4. Flattening the Images
+	(reshapping the Images like from 2-d to 1-d, conversion into the vector)
+5. Min-Max Scaling
+	(As 255 represents the black and 0 represents the white)
+	(Scaling so that the edges remain prominent)
+6. Processing Target Variable
+	(As the classes  are 10)
+	(One- hot encoded)
+	(Data to categorical)
+7. Setting up the hyper-parameter 
+	(their setting-up method comes from the practice not directly from the raw data)
+Above all the processes were for the data preprocessing
+Now we will be looking at the ardhitecture of the model
+Standard Neural Network/Fully Connected Neural Network
+8. Building up the FCN Model
+	(creating the sequenial model)
+	(Adding layers)
+	(use the dense as it gives the fully connected neurons)
+9. Compilation:
+	(Checking the loss)
+	(multi-class use the crossentropy while the binary class use the binary entropy)
+	(optimizer like the "SGD")---socasted gradient descent socasted means the addition of the extra features into the gradient descent
+	(Metric accuracy aswell)
+10. Parameters Calcualtion:
+for instance:
+	(400      *      784)    +   400      =   314000)
+	1st		Input	     Bias	  Output
+	layer		Data
+	neurons
+11. Traning of the neural network
+	(Time of training)
+	(fit function implementatio)
+12. Testing the models
+	(prediction)
+	(accuracy score etc)
+13. For example
+	(Taking 20 sample images)
+	(predicted probabilities for selected)
+	(validation examples)
+14. Setup a figure to display images
+	(Display the predicted as well)
