@@ -640,3 +640,54 @@ for instance:
 	(validation examples)
 14. Setup a figure to display images
 	(Display the predicted as well)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Convolutional Neural network (CNN)
+Actually the CNN is better then the Standard Neural Network (SNN) because of the computational power use as the SNN involves the fully connected 
+neurons with each other for carrying out the specific functionality and CNN involves mainly the performance of the filter to carry out the 
+specific functionality and that is why less computaional power is needed.
+
+Let' s dive into deep:
+When we seen in general we recognize the things in the patterns and these patterns as a whole forms a complete image
+
+CNN is like the operations of addition, multiplication, division etc. but it involves the other features as well. but it involves the more 
+functionalities like we have an image in the computer for recognition in the computer as these images are recognized by the computer using the CNN
+feature/kernel helps to recognize the image as they apply the specific size filter to the complete matrix of the image to make a complete recognized
+matrix from the unrecognized image.
+Filter is the main diffence between the SNN and CNN as SNN involves the fully connected neurons while the CNN involves the filters to recognize the 
+image or pattern.
+Filters are just like the magnifier as the magnifiers existed previously to perform the specific tasks like sober's or shoore 's magnifiers 
+but the filter involved in the CNN involves the 
+Input image ----------> filters / feature application ---------------> extraction of feature map(which helps to recognize the images)
+back propagation also exist in the above process to identify the correct magnifier and this all process needs very small computational power.
+
+Vertical Edge detection:
+Training of kernel again and again for its smooth functionality. (this process is very important)
+
+Pooling:
+It is the process of summarizing the information and keeing the information which is very important.It is like the dimensionality reduction
+keeping the information which is important.
+pooling  = downsizing + information summary
+
+Types of pooling:
+1. Max Pooling       (Best dimensionality reduction method)
+Takes the maximum value from each patch.
+Feture retention: keeps the dominant features intact.
+Translation invariance: recognizes features regardless of exact location (means that will recognize the face from the image wherever
+it exists in the image )
+dimension reduction: reduces data size and improves the efficiency.
+
+2. Average Pooling     (second best)
+Computes the average of values in the patch.
+Feture retention: Keeps an overall smooth idea but less focus on dominant features.
+Translation invariance: Still somewhat translation-invariant.
+Dimension reduction: Yes, but might blur sharp features.
+
+3. Sum Pooling    (third best):
+Sums all values in the patch.
+Feture retention: No emphasis on strong features — adds all regardless of strength.
+Translation invariance: Still invariant to small shifts.
+Dimension reduction: Yes, but not as effective — larger values may dominate due to addition.
+
+
+
+
