@@ -687,6 +687,31 @@ Sums all values in the patch.
 Feture retention: No emphasis on strong features — adds all regardless of strength.
 Translation invariance: Still invariant to small shifts.
 Dimension reduction: Yes, but not as effective — larger values may dominate due to addition.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  Difference
+ANN(Artificial Neural Network)                                                          CNN(Convolutional Nework Neuron)
+ANN reognizes the images block by block.                                                CNN recognizes the images piece by piece
+Computationaly Expensive model                                                          Computationaly inexpensive model
+
+
+
+Computer takes the images as the matrix.
+Neurons in the convolution performs the different operations as compared to the neurons in the SNN/ANN because they perform the other 
+functionalities as well as they performs the convolutions as well.
+Convolutional Neurons extract features by the pooling then they do the dimensionality reduction, then they send them to the fully 
+connected neurons must have the same neurons as the classes exists then softmax function then the result.
+
+CNN Layers involves:
+Input             Convolution               Pooling                      FCL(Fully connected layer)                                       Output
+Layer             Layer                     Layer                        Classification (binary (sigmoid), multi-class(softmax))             
+                                                                         Regression  (relu)
+
+Neuron involves the two parts which are as 
+Linear calculation part  (wx+b)
+activation function   (relu, sigmoid)
+Linear Neurons:
+These are the neurons which does not have the activation function.
+
 
 
 
