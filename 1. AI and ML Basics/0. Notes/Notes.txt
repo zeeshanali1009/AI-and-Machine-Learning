@@ -714,5 +714,35 @@ These are the neurons which does not have the activation function.
 
 
 
+now i want to do the practical as well as it involves the following steps 
+1. Loading the packages
+2. Loading the avialable device or connected ones i.e checking cpu or gpu this step is used in the collab
+3. loading the dataset
+4. Splitting the data 
+5. Displaying the data 
+6. Displaying the shapes of the data 
+7. Reshapping
+8. Min Max Scalling 
+9. One hot encoding
+10. Building the CNN
+        (Sequential)
+        (Dense,flatten)
+        (Conv2d, maxpool)
+        (filters i.e (2,32,80,120))
+        (classes =10)
+11. Creating the model
+        (sequentially)
+        (now keeping the layers sequentially)
+        (like add.conv2d(__) , add.maxpool(__))
+        (add.flatten)
+        (add.dense)
+        (add.compile using the crossentropy, accuracy , sgd)
+        (model.summary)
+12. parameters calculation:
+Layer_1  = filter_height * filter_width * input_channel +1(bias) number of filters = parameters 
+
+13. Training the CNN
+14. testing the model
+15. taking 20 samples images for checking the model
 
 
