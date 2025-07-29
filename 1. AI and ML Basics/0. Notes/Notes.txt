@@ -745,4 +745,41 @@ Layer_1  = filter_height * filter_width * input_channel +1(bias) number of filte
 14. testing the model
 15. taking 20 samples images for checking the model
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+AutoEncoders
+They are also one of the type of neural network model.
+Used for the dimensionality reduction and feature learning.
+Primary goal is to encode data into the compact represenation and then decode the reconstruction.
+Anatomy of Encoders:
+Components:
+Encoders                                              Bottleneck                                                    Decoders
+Compressing much information                          Latent space representation                                   will recreate the from compressed
+into less without lossing it                                                                                        to incompressed
+
+Encoder                                                                                       Decoder
+Image to vector                                                                               Vector to image 
+Data compression                                                                              Data incompression
+Feature extraction                                                                            Generates the features using the processed data
+
+It is the responsibility of the decoder to minimize the differences between input and reconstructed input.
+to minimize the reconstruction loss.
+
+Encoders converts the original data into the secret code.
+uses rules and transformations to hide the message
+Decodes reverts the secret code back to the original data.
+Understands the rules to reverse the encodings
+
+
+Types of encoders:
+1. Vanilla Autoencoders
+2. Denoising Autoencoders (removing the unnecessary parts)
+3. Variational Autoencoders
+
+
+Auto encoders takes us to the non-linearity (which enables us to do complex calculations as well).
+
+
+
+
+
 
