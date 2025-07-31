@@ -777,6 +777,37 @@ Types of encoders:
 
 
 Auto encoders takes us to the non-linearity (which enables us to do complex calculations as well).
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Building the Autoencoders
+It is one of the type of unsupervised learning as we do not need the input and output labels in this case and we just calculate the loss by 
+comparing the input and output labels this is called self-supervised learning one of the type of unsupervised learnings.
+
+Building of Autoencoders involves the following steps
+1. Loading the datasets
+2. Data Displaying
+3. Data Scaling
+Encoder Part
+4. Architecture of auto-encoder
+      Building layers step by step with the specific names as well
+                  using activation functions, padding, kernel_initializer
+5. Flattening 
+Decoder Part
+6. Reshaping 
+7. conv2d, upsampling
+8. Complile 
+9. Summary
+10. Training the Auto-encoder
+11. Prediction
+    Passing the encoded images
+    
+
+
+Auto Encoder involves the two parts
+1. Encoder
+2. Decoder
+They can be used single by single as well, means seperately as the seperate models but being in use collectively.
+
+
 
 
 
