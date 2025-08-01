@@ -1,0 +1,5 @@
+openai = 1.1.1
+streamlit
+streamlit-chat
+python-dotenv
+langchain
