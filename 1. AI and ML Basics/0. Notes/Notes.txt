@@ -867,6 +867,32 @@ There will be the automatic context establishment and the this context is very i
 
 Size of the zipped message depends upon the LLM as it decides the lenght which is called context window(chat extension capacity).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Langchain:
+It connects the external data source with the LLM, acts as a bridge between the data source and LLM.
+It is a open-source framework designed to simplify the creation of applications using LLM.
+Used for:
+Chatboats 
+Answering questions using sources
+data augmentation
+
+Suppose we have a book of 300000 pages and the capacity of LLM is 3000 so the 300000 pages will be divided into the 100 groups of 3000 pages and will be used to maintain the 
+contxt window.
+
+Document gpt:
+Documents                 splits into chunks                        Create embeddings                             Vector Store
+
+Steps for the building of the chatboats:
+Splitting data into chunks
+Chunks then be converted into the embeddings 
+Similarity search on the embeddings 
+Answer to the questions using the LLM.
+
+Vector Embeddings:
+Numeric conversion of the data to store them for the models so that they can be used by the model.
+Vector Database/Store:
+The place where the data in the form of vectors is stored.
+
 
 
 
