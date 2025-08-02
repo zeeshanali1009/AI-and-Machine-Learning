@@ -877,7 +877,7 @@ Answering questions using sources
 data augmentation
 
 Suppose we have a book of 300000 pages and the capacity of LLM is 3000 so the 300000 pages will be divided into the 100 groups of 3000 pages and will be used to maintain the 
-contxt window.
+contxt window. these divided groups are called the chunks which are inter-related as well.
 
 Document gpt:
 Documents                 splits into chunks                        Create embeddings                             Vector Store
@@ -890,6 +890,7 @@ Answer to the questions using the LLM.
 
 Vector Embeddings:
 Numeric conversion of the data to store them for the models so that they can be used by the model.
+Human centric language into the machine centric-language(numeric form).
 Vector Database/Store:
 The place where the data in the form of vectors is stored.
 
