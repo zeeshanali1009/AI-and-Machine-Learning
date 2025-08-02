@@ -828,6 +828,50 @@ both side client side (through the prompts ) as well as on the server side (by t
 Guardrials:
 Actually these are the constraints added to the chatboat for the security purposes.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chatgpt Flow:
+
+-------------
+| User Query |
+-------------
+      |
+      |
+      |
+      |
+      |
+-----------------                           -----------------
+| Zipped Message |                          | System Message |
+-----------------                           -----------------
+
+                                            -----------------
+                                            |  Human Message |
+                                            -----------------
+
+                                            --------------                             ------------             ------------                     ----------
+                                            |  AI Message |                           | Chat Model |            | Response |                    | Response |
+                                            --------------                             ------------             ------------                     ----------
+                                                  -
+                                                  -
+                                                  -
+                                            ----------------
+                                            | Human Message |
+                                            ----------------
+
+                                            --------------
+                                            | AI Message  |
+                                            --------------
+
+
+There will be the automatic context establishment and the this context is very important for the complete chat background knowledge.
+
+Size of the zipped message depends upon the LLM as it decides the lenght which is called context window(chat extension capacity).
+
+
+
+
+                                    
+
 
 
 
