@@ -894,6 +894,52 @@ Human centric language into the machine centric-language(numeric form).
 Vector Database/Store:
 The place where the data in the form of vectors is stored.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                              Differnce
+Simple/Traditional Database                                                                    Vector Database
+Simple database stores the data as it is                                                       Vector database stores the data in the numeric form
+means the data is stored in the raw form                                                       Raw form of the data gets converted into the numeric form.
+the form in which it exists , gets stored                                                      These numeric forms are actually the embeddings.                                                           
+in the same form as well.
+
+
+Chains:
+It is the core building block of the langchain applications.
+A chain is a sequence of steps that are performed on the piece of text.
+It involves the following steps:
+Retrieval           (the retrieval is done through the embeddings)
+Generation          (generation is done through the models)
+Post-Processing     (post processing is done covering the previous records as well)
+
+                                                              Differnce
+Langchain                                                                                            Pipeline
+Involvement of LLM                                                                                   Regression/Classification Models
+Chain of tasks\functions                                                                             Might be not a model.
+
+Langchain Types:
+LLM Chain     (Simplest one)
+Retrieval Q/A   (No need to remember the questions and answers)        Retrieval Q/A with reference/source value
+Conversation    (There will be the complete of records of questions and answers)
+
+
+FIASS Vector Store problem:
+it stores everything locally and then every i/o request requires the computational power as well thus takes the time in the processing as well.
+This problem is solved by the Qdrant which resolves the problem of local storage as well.
+Qdrant (Vector Store)
+It is a open-source vector database that allows you to store, index and search high dimensional vectors at scale.
+Performance and Scalable Solution for Vectors 
+Search application                  Question Answering                      Recommendation System
+NLP
+
+It gives the following things:
+Performance
+Scalability
+Ease of Use 
+Free to Use
+
+
+
+
 
 
 

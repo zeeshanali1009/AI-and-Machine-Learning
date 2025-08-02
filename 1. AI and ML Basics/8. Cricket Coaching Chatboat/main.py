@@ -32,6 +32,7 @@ def build_message_list():
     return messages
 
 # Generate AI response from OpenAI
+
 def generate_response(user_prompt):
     messages = build_message_list()
     messages.append({"role": "user", "content": user_prompt})
