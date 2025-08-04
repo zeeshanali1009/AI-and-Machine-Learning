@@ -976,5 +976,13 @@ uses the Application needs to process the large                                 
 amount of data.                                                                           customization.
 
                                                 
+---------------------------------------------------------------------------------------------------------------------------------------
+Pytorch
+It is a open source machine learning library used for the implementation of deep learning techniques.
+Uses:
+Creating and training deep learning models
+flexibility, for research and production
+Versatile tools 
+used for the computer vision and NLP
 
 
