@@ -937,3 +937,44 @@ Scalability
 Ease of Use 
 Free to Use
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+LlamaIndex:
+it is a python framework does exactly the same tasks as the langchain does but it provides us with more ease.
+Used for the:
+Chatboats making
+data connection building using the llms
+                                                      Difference
+Llamaindex                                                                              Lama-2
+It is LLM index that enables the                                                        LLM trained on massive dataset of text and code still 
+efficient search and retrieval                                                          under the development already learned to do many tasks
+purposes. 
+It needs much computational power as the many neurons are                               It needs much computational power as the many neurons are 
+working into it.                                                                        working into it as well.  
+
+
+Uses:
+Q/A over the documents
+Text Summarization
+Code Generation
+Creative Thinking 
+Data Exploration
+
+                                                      Difference
+LamaIndex                                                                                 Langchain
+                                                      Purpose
+Search and Retrieval purposes.                                                            General processing framework
+
+                                                      Interface
+Simple one                                                                                Flexible                                                      
+
+                                                      Efficiency
+Very Efficient                                                                            Less efficient
+
+                                                      Use                                        
+uses the Application needs to process the large                                           Uses the applications that needs the more 
+amount of data.                                                                           customization.
+
+                                                
+
+
