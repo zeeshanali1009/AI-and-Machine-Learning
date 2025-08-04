@@ -1,0 +1,6 @@
+streamlit
+llama-index
+faiss-cpu
+sentence-transformers
+PyMuPDF  # for PDF reading
+docx2txt  # for DOCX
