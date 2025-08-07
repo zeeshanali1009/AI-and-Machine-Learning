@@ -87,3 +87,5 @@ set_3 = {"Ali", "Muhammad"}
 print(set_1.isdisjoint(set_2))
 print(set_1.issubset(set_2))
 print(set_1.issuperset(set_2))
+
+del set_1       # it would delete the set completely from the memory as well
