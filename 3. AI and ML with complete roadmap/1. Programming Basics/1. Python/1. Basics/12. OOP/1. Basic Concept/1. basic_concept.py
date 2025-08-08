@@ -9,6 +9,7 @@ class Student:
     name = ""
     address = ""
     roll_no = ""
+    __password = ""
 
     # Constructor:
     # The __init__ method is a special method in Python classes that runs automatically 
@@ -40,9 +41,24 @@ class Student:
     def greet(self, extra_message):
         # Using f-string for formatted output.
         print(f"Hello, {self.name}! {extra_message}")
+    
+    def __welcome(self):
+        print("Hello!")
+    
+    def greetings(self):
+        print(self.__welcome)      # private memeber indirect access
 
 # Creating object using parameterized constructor.
 s2 = Student("Zeeshan", "KRK", "121212")
 
 # Calling the greet method with an additional message.
 s2.greet("Welcome to the OOP world!")
+
+# we have the del keyword for the permanent deletion involving the memory occupied 
+del s2.name
+
+# now we have the concept of private public as well as the private member starts with --
+# print(s2.password)     # it cannot be accessed directly we have to use inner functions to access it
+
+
+
