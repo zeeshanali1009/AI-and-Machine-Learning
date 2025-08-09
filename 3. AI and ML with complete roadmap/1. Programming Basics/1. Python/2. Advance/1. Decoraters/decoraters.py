@@ -30,7 +30,7 @@ def add(a, b):
 # Call the decorated function
 # hlo()
 res = add(12,12)
-print("Result = ", res)
+print("Result = ",)
 
 # Or call decorator manually
 # greet(hlo)()
