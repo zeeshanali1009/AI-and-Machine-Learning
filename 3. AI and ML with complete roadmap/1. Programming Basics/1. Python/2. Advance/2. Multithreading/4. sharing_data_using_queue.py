@@ -1,3 +1,4 @@
+# here the data resource are being shared in teh queue
 import multiprocessing
 
 
@@ -21,3 +22,7 @@ if __name__=="__main__":
 
     while q.empty() is False:
         print(q.get())
+
+# there are two queues 
+# multiprocessing queue: this stores only the data of the multiprocesses at the same memory locations
+# queue : this queuee just stores the data of the threads at the same memory locations
