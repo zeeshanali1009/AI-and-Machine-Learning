@@ -1,0 +1,67 @@
+Database:
+A database is an ordered collection of information stored and read electronically from a computing system.
+It invloves two types of information: 1. Structured information     2. Unstructured information
+1. Structured Information
+The structured information is often retrieved, managed, controlled and arranged to perform various data-preprocessing operations.
+---------------------------------------------------------------------------------------------------------------------------------------------
+Database System:
+It invloves the two parts: 1. Database      2. Database Management System
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Database Management System:
+Database management system ia an application software which is used to perform various operations on data like MYSQL.
+DBMS provides a platform for users to carry out different actions like database creation, updation, deletion and many more.
+ALl the processes are protected adn secured. Even data 
+consistency is maintained during multiple users.
+---------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Difference
+DBMS                                                                                            Flat File System
+Supports multi-user access                                                                      It does not support multiuser access
+Used by both small and large businesses                                                         Used by small bussiness
+No redundancy and integrity issues                                                              Redundancy and integrity issues 
+expensive                                                                                       Cheap
+can work with complicated transactions                                                          Cannot work with complicated transactions
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Components of DBMS:
+These are the following components of dbms:
+1. Hardware             2. Software             3. Data         4. Procedures           5. Database Access Language
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Types of DBMS:
+1. Heirarichal Model
+Data is organized in tree like structures.
+data entities has one to many relationships. 
+2. Network Model
+Data is organized in a graph like structure.
+Data entities has one to one or many to many relationships.
+3. Relational Model
+Data is organized in two dimensional tables using rows and columns.
+Stored in fixed structures and updated using sql.
+4. Object Oriented Model
+Data is stored in form of objects.
+it is a combination of relational database features and OOPS concepts.
+---------------------------------------------------------------------------------------------------------------------------------------------
+Application of DBMS:
+Universities
+Banking
+Finance
+Sales 
+Telecommunication
+Manufacturing
+HR Management
+---------------------------------------------------------------------------------------------------------------------------------------------
+Advanatges of DBMS:
+Controls database redundancy
+privacy
+data integrity
+backup and recovery
+sharing of data
+data consistency
+data security
+---------------------------------------------------------------------------------------------------------------------------------------------
+Disadvantages of DBMS:
+Cost of hardware and software is quite high
+huge size
+higher impact o failure
+complex to use
