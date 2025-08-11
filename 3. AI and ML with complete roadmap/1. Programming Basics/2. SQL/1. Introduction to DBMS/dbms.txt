@@ -11,8 +11,7 @@ It invloves the two parts: 1. Database      2. Database Management System
 Database Management System:
 Database management system ia an application software which is used to perform various operations on data like MYSQL.
 DBMS provides a platform for users to carry out different actions like database creation, updation, deletion and many more.
-ALl the processes are protected adn secured. Even data 
-consistency is maintained during multiple users.
+ALl the processes are protected adn secured. Even data consistency is maintained during multiple users.
 ---------------------------------------------------------------------------------------------------------------------------------------------
                                                         Difference
 DBMS                                                                                            Flat File System

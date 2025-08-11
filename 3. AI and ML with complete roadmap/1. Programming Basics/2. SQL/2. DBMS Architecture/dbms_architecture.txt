@@ -1,0 +1,27 @@
+Database Management System involves two architectures:
+1. Two-tier Architecture.
+2. Three-tier Architecture.
+Explaination:
+1. Two Tier Architecture:
+It involves the twl layers which are as:  Client Layer          Data Layer(Database)
+Clients are associated with the client layer while the data is present in the database and is usually accessed directly. Any query performed by the client is processed into the 
+database directly and output is given directly to the user.
+Pros and Cons
+It is maintaind very easily as there are only two layers to maintained.
+cannot bear the load of more clients
+Has more security vulnerabilities because database layer is accessed directly.
+It is not much scalable.
+Example:
+Railway station systems
+
+
+2. Three-Tier Architecture:
+It involves the two layers which are as:  Client Layer          Application/Business Layer          Data Layer(Database)
+Clients are associated with the client layer while the data is present in the database and is usually accessed through an intermediate/application/business layer. Any query performed
+by the client is processed into the business layer data is also been accessed through the business layer.
+Pros and Cons:
+It is very hard to maintain it as there are more layers as comapred to other architectures.
+It is very secured as compared to other architecture as there is the intermediate layer as well.
+It can bear the load of more users as well.
+Examples :
+Enterprises system where more security is required.
