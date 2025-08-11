@@ -75,3 +75,9 @@ If a composite key has at-least one attribute which is a foreign key then it is 
 for example:
 email+sbranch
 
+
+Surrogate Keys:
+A surrogate key is an artificially created, unique identifier for a record in a table — it does not come
+from the real-world data itself.
+
+

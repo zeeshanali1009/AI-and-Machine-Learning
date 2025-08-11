@@ -1,0 +1,113 @@
+1. Schema-Based Constraints
+These are explicitly specified in the schema definition of a database and enforced by the DBMS automatically.
+
+a. Domain Constraints
+
+Definition: Restrict the set of valid values for an attribute.
+Example: `Age` must be between 0 and 120.
+SQL Example:
+
+
+CREATE TABLE Employee (
+    Name VARCHAR(50),
+    Age INT CHECK (Age BETWEEN 0 AND 120)
+);
+
+
+b. Key Constraints
+
+Definition: No two rows can have the same value for the key attribute(s).
+Types:
+
+Primary Key: Unique & not NULL.
+Candidate Key: A potential primary key.
+Unique Key: Unique but can have NULLs (except in some DBMS rules).
+SQL Example:
+
+
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    Email VARCHAR(100) UNIQUE
+);
+
+c. Constraints on Null Values
+
+Definition: Specify whether a column can be `NULL` or must always have a value (`NOT NULL`).
+Example:
+
+
+CREATE TABLE Student (
+    RollNo INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL
+);
+
+d. Entity Integrity Constraint**
+
+Definition:Primary key values must never be NULL because they uniquely identify tuples.
+Reason: If a primary key were NULL, the tuple couldn’t be uniquely referenced.
+
+
+e. Referential Integrity Constraint
+
+Definition: A foreign key in one table must match a primary key in another table or be NULL.
+Example:
+
+CREATE TABLE Department (
+    DeptID INT PRIMARY KEY,
+    DeptName VARCHAR(50)
+);
+
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    DeptID INT,
+    FOREIGN KEY (DeptID) REFERENCES Department(DeptID)
+);
+
+2. Inherent (Implicit) Constraints
+
+Definition: Constraints implied by the relational data model itself — they are true for all valid relations and don’t need to be explicitly stated.
+Examples:
+
+  1. Tuples are unordered – The relational model does not define any inherent order of rows.
+  2. Attributes are unordered – The order of columns in a table does not matter.
+  3. No duplicate tuples – A relation is mathematically a set of tuples, so duplicates aren’t allowed (though in SQL, duplicates are allowed unless specified otherwise).
+  4. Atomic attribute values – Each attribute holds only one value (1NF rule).
+
+
+
+3. Application-Based (Semantic) Constraints
+
+Definition: Constraints defined by the application logic, not by the DBMS itself. They are enforced in the application code or via triggers/procedures.
+Reason: The DBMS may not have a built-in mechanism for them, or they may be too complex for schema definition.
+Examples:
+
+  1. Business Rules:
+
+     An employee’s age must be greater than 18.
+     A loan amount must be ≤ customer’s credit limit.
+  2. Cross-field validations:
+
+      If `IsMarried = TRUE`, then `SpouseName` must not be NULL.
+  3. Complex calculations:**
+
+      Annual bonus must be ≤ 20% of annual salary.
+ SQL Example with Trigger:
+
+CREATE TRIGGER AgeCheck
+BEFORE INSERT ON Employee
+FOR EACH ROW
+BEGIN
+    IF NEW.Age < 18 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Employee must be at least 18 years old';
+    END IF;
+END;
+
+Summary Table:
+
+| Constraint Type         | Defined In                  | Enforced By               | Examples                                                   |
+| ----------------------- | --------------------------- | ------------------------- | ---------------------------------------------------------- |
+| Schema-Based**        | DB schema                   | DBMS                      | Domain, Key, Null, Entity Integrity, Referential Integrity |
+| Inherent (Implicit)** | Relational model theory     | Always true               | No duplicate tuples, unordered rows, atomic values         |
+| Application-Based**   | Application code / triggers | Application or DBMS logic | Business rules, complex validations                        |
+

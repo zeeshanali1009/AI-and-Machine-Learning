@@ -1,0 +1,77 @@
+Entity relationship Diagram:
+ER diagram represents the relationships of the entities that need to be stored in the database.
+ER diagram is a structural design that represents the relationships among the entities of the database.
+ER diagram is mainly built on the three components which are entities, attributes and relationships
+
+Significance of ERD:
+Heps us to conceptualize the database.
+Gives us the better understanding of the data.
+Reduces the complexity and saves the time as well.
+Helps us to describe elements
+
+Symbols:
+Rectangle--------------------------------> Entity
+Oval-------------------------------------> Attribute 
+Double Rectangle-------------------------> Weak Entity
+lined Oval-------------------------------> Derived Attribute
+Diamond----------------------------------> Relationship
+Double Oval------------------------------> Multivalued Attribute
+
+Components:
+Entity                              Attribute                   Relationship
+Weak Entity                         Keys                        One to many
+                                    Composite                   One to many
+                                    Multivalued                 Many to one 
+                                    Derived                     Many to one
+
+Entity:
+An entity can be either a living or a non-living component usually showcased in a rectangle.
+like Doctors, Nurses 
+Weak entity usually relies over another entity usually showcased in the double rectangle.
+
+Attribute:
+An attribute descibes the property of an entity.
+Types of Attribute:
+Key attribute uniquely identifies the entity from other entity set like ids in the diagram.
+Composite attribute is composed of other attributes like first, middle, last form name.
+Multivalued attribute can possess more then one value like gender can have more then one value.
+Derived attribute is extracted from other attributes like head doctor id in the diagram.
+
+Relationships:
+It shows the relationships between the entities showcased in the diamond.
+Types of relationships:
+One to One Relationship: When single element of an entity is associated with a single element of another entity.
+One to Many Relationship: When single element of an entity is associated with a more then single element of another entity.
+Many to One Relationship: When more then single element of an entity is associated with a single element of another entity.
+One to Many Relationship: When more then single element of an entity is associated with a more then single element of another entity.
+
+Key Points to draw the erd diagram:
+First identify the all entities embed them into the rectangle.
+Identify the relationships between entities and connect them using the diamond.
+Connect attributes for entities and label them properly.
+Eradicate any redundant entities or relationships.
+Make sure your ERD diagram supports all the data provided to design the database.
+
+
+Cardinality:
+In mathematics:
+Cardinality = number of elements in a set.
+Example: {2, 4, 6} has a cardinality of 3.
+
+In databases it has two contexts:
+
+1. Column Cardinality:
+Describes how unique the data is in a column.
+High cardinality → Many unique values.
+Example: Email column (almost all rows different).
+Low cardinality → Few unique values.
+Example: Gender column (mostly "Male" or "Female").
+
+Relationship Cardinality (ER Diagrams)
+Describes the number of instances of one entity that relate to another entity.
+Common types:
+One-to-One (1:1) → One student has exactly one ID card.
+One-to-Many (1:N) → One teacher can teach many students.
+Many-to-Many (M:N) → Many students can enroll in many courses
+
+
