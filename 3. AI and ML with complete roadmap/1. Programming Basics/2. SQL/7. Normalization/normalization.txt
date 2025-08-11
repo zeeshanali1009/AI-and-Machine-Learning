@@ -1,0 +1,176 @@
+What is Normalization?
+Normalization is a process in database design to organize data in such a way that:
+
+Data redundancy is minimized
+Data anomalies (insertion, update, deletion problems) are avoided
+Data integrity is maintained
+
+It involves breaking large tables into smaller ones and defining relationships between them.
+
+Key Terms in Normalization
+1. Attribute → A column in a table.
+2. Tuple / Recor → A row in a table.
+3. Relation → A table.
+4. Functional Dependency (FD) →
+   If `A → B`, it means attribute A uniquely determines B.
+   Example:
+   `Roll_No → Student_Name` (Roll\_No uniquely determines Student\_Name).
+5. Super Key → Any set of attributes that uniquely identifies a row.
+6. Candidate Key → A **minimal super key (no extra attributes).
+7. Primary Ke* → The candidate key chosen to uniquely identify rows.
+8. Composite Key → A key made of more than one attribute.
+9. Prime Attribute → An attribute that is part of any candidate key.
+10. Non-prime Attribute → Not part of any candidate key.
+11. Partial Dependency → In a composite key, a non-prime attribute depends only on part of the key.
+12. Transitive Dependency → A non-prime attribute depends on another non-prime attribute.
+
+
+The Normal Forms
+1. First Normal Form (1NF)Rule:
+No repeating groups or arrays
+Each cell contains atomic values (indivisible)
+Each record must be uniqueExample (Not in 1NF)
+
+| Roll\_No | Name | Subjects      |
+| -------- | ---- | ------------- |
+| 1        | Ali  | Math, Physics |
+| 2        | Sara | English, Math |
+
+Problem: `Subjects` column contains multiple values → violates atomicity.
+
+Convert to 1NF:
+
+| Roll\_No | Name | Subject |
+| -------- | ---- | ------- |
+| 1        | Ali  | Math    |
+| 1        | Ali  | Physics |
+| 2        | Sara | English |
+| 2        | Sara | Math    |
+
+2. Second Normal Form (2NF)
+Extra Rule (on top of 1NF):
+
+Table must be in 1NF
+No partial dependency — non-prime attributes should depend on the whole composite key, not part of it.
+
+Example (Not in 2NF)
+
+Table: Enrollment
+
+| Student\_ID | Course\_ID | Student\_Name | Course\_Name |
+| ----------- | ---------- | ------------- | ------------ |
+| 1           | 101        | Ali           | Math         |
+| 1           | 102        | Ali           | Physics      |
+| 2           | 101        | Sara          | Math         |
+
+Key: (Student\_ID, Course\_ID)
+
+`Student_Name` depends only on `Student_ID` (partial dependency)
+`Course_Name` depends only on `Course_ID` (partial dependency)
+
+Convert to 2NF:
+
+Student Table
+
+| Student\_ID | Student\_Name |
+| ----------- | ------------- |
+| 1           | Ali           |
+| 2           | Sara          |
+
+Course Table
+
+| Course\_ID | Course\_Name |
+| ---------- | ------------ |
+| 101        | Math         |
+| 102        | Physics      |
+
+Enrollment Table
+
+| Student\_ID | Course\_ID |
+| ----------- | ---------- |
+| 1           | 101        |
+| 1           | 102        |
+| 2           | 101        |
+
+3. Third Normal Form (3NF)Extra Rule (on top of 2NF):
+
+Table must be in 2NF
+No transitive dependency** — non-prime attributes should not depend on other non-prime attributes.
+
+Example (Not in 3NF)
+
+| Emp\_ID | Emp\_Name | Dept\_ID | Dept\_Name |
+| ------- | --------- | -------- | ---------- |
+| 1       | Ali       | 10       | HR         |
+| 2       | Sara      | 20       | IT         |
+
+Key: Emp\_ID
+
+ `Dept_Name` depends on `Dept_ID` (which is non-prime) → transitive dependency.
+
+Convert to 3NF:
+
+Employee Table
+
+| Emp\_ID | Emp\_Name | Dept\_ID |
+| ------- | --------- | -------- |
+| 1       | Ali       | 10       |
+| 2       | Sara      | 20       |
+
+Department Table
+
+| Dept\_ID | Dept\_Name |
+| -------- | ---------- |
+| 10       | HR         |
+| 20       | IT         |
+
+4. Boyce-Codd Normal Form (BCNF)
+Rule:
+Stricter than 3NF
+For every functional dependency X → Y, X must be a super key.
+
+Example (Not in BCNF)
+
+| Course  | Teacher | Room |
+| ------- | ------- | ---- |
+| Math    | Ali     | 101  |
+| Physics | Ali     | 102  |
+
+FDs:
+`Course → Room`
+`Teacher → Course` (Teacher determines Course)
+But `Teacher` is not a super key → violates BCNF.
+
+5. 4NF (Fourth Normal Form)
+Rule:
+
+ Table must be in BCNF
+ No multi-valued dependencies (MVDs).
+
+Example:
+
+| Student | Hobby   | Language |
+| ------- | ------- | -------- |
+| Ali     | Cricket | English  |
+| Ali     | Cricket | Urdu     |
+| Ali     | Music   | English  |
+| Ali     | Music   | Urdu     |
+
+Here, Hobby and Language are independent — causes repetition.
+
+6. 5NF (Fifth Normal Form / Project-Join Normal Form)
+Rule:
+ Table must be in 4NF
+ No join dependency problems (data shouldn’t need to be decomposed more to remove redundancy).
+
+
+Quick Summary Table:
+
+| Form | Removes Problem                     | Extra Rule                                |
+| ---- | ----------------------------------- | ----------------------------------------- |
+| 1NF  | Repeating groups, non-atomic values | Atomic columns                            |
+| 2NF  | Partial dependency                  | Non-prime attributes depend on whole key  |
+| 3NF  | Transitive dependency               | Non-prime attributes depend only on key   |
+| BCNF | Anomalous FDs                       | Determinant must be a super key           |
+| 4NF  | Multi-valued dependency             | No independent multi-valued facts         |
+| 5NF  | Join dependency                     | All data reconstructed without redundancy |
