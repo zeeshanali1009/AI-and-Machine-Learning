@@ -1,0 +1,7 @@
+Schema:
+Schema represents the relationship present between the data into the database. This relationship is the dependency pillar of the query performance. More strong is the schema, more effieciently 
+the query will perform.
+Schema is the relationship between the components of the database as the queues, features, views, etc.
+More strong the schema is more will be the time efficiency as the query will get executed fastly as there will be no time loss in the finding purposes.
+Usually the keys are used to make the schema more strong like we use the primary keys to make the star schmea like we store all the primary keys into one table and access the 
+multiple things of the schema using the primary key.
