@@ -1,0 +1,96 @@
+
+1. What is Denormalization?
+Definition:
+Denormalization is the process of reintroducing redundancy into a database by combining tables or storing derived data **for performance reasons**.
+In simple terms: You *intentionally* break some normalization rules to make certain queries faster.
+
+
+2. Why Use Denormalization?
+Normalization removes redundancy to save storage and maintain consistency — but it can make queries slower because data is split across multiple tables (more joins).
+Denormalization is used when:
+
+ Query speed is more important than write speed.
+ The database is read-heavy (more SELECT than INSERT/UPDATE).
+ Complex joins are making performance worse.
+
+3. Key Characteristics
+Purpose → Speed up data retrieval.
+Trade-off → Increases redundancy → risk of inconsistency.
+Common in → Data warehouses, reporting systems.
+
+
+4. Techniques of Denormalization
+
+| Technique                         | What it Does                                       | Example                                                                              |
+| --------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Combining tables              | Merge related tables into one                      | Merging `Orders` and `OrderDetails` into one table                                   |
+| Adding redundant columns      | Duplicate data in another table to avoid joins     | Store `CustomerName` in `Orders` table instead of joining `Customers` table          |
+| Precomputed (derived) columns | Store calculations instead of computing every time | Store `TotalPrice` in table instead of multiplying `Quantity × UnitPrice` every time |
+| Aggregated tables             | Create summary tables for reporting                | Store daily sales totals in a separate table                                         |
+| Duplicating indexes           | Copy key fields for faster lookups                 | Keeping `CategoryName` inside `Products` table                                       |
+
+
+5. Example: Normalized vs Denormalized
+
+Normalized Design
+
+Tables:
+
+
+-- Customers
+CustomerID | Name  
+1          | John  
+2          | Alice  
+
+-- Orders
+OrderID | CustomerID | OrderDate  
+101     | 1          | 2024-01-01  
+102     | 2          | 2024-01-02  
+
+-- OrderDetails
+OrderID | ProductID | Quantity | UnitPrice  
+101     | P1        | 2        | 50  
+101     | P2        | 1        | 100  
+```
+
+To get an order with customer name → requires joining 3 tables.
+
+Denormalized Design
+
+
+-- Orders (Merged with Customers & OrderDetails)
+OrderID | CustomerName | OrderDate   | ProductID | Quantity | UnitPrice | TotalPrice
+101     | John         | 2024-01-01  | P1        | 2        | 50        | 100
+101     | John         | 2024-01-01  | P2        | 1        | 100       | 100
+```
+
+Querying orders now requires only one table.
+We’ve stored CustomerName and **TotalPrice redundantly.
+
+
+6. Advantages
+Faster SELECT queries (less joins).
+Easier for reporting and analytics.
+Can precompute expensive calculations.
+
+
+7. Disadvantages
+Data redundancy → more storage.
+Update anomalies → changing `CustomerName` requires updating multiple rows.
+Insert anomalies → risk of incorrect/missing redundant data.
+Delete anomalies → deleting one row might remove important data if not careful.
+
+
+8. When to Use
+Good for:
+
+Read-heavy databases.
+Analytics & reporting.
+OLAP (Online Analytical Processing) systems.
+
+Avoid when:
+
+ q Write-heavy systems.
+ q Strong data consistency required.
+ q Storage cost is critical.
+
