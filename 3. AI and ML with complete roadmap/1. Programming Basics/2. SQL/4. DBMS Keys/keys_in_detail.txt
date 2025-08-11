@@ -1,0 +1,77 @@
+These are the following types of the keys:
+1. Super Keys
+2. Candidate Keys
+3. Primary Keys
+4. Foreign Keys
+5. Composite and Compound Keys
+6. Alternate Keys
+7. Surrogate Keys
+Explaination:
+Suppose we have a table 
+SID                  regid                  SName                  SBranch                 SEmail
+1                    1-1-1-1                ali                    Cs                      ali@gmail.com
+2                    2-2-2-2                tom                    se                      tom@gmail.com
+3                    3-3-3-3                doe                    it                      doe@gmail.com
+4                    4-4-4-4                Own                    Cs                      Own@gmail.com
+5                    5-5-5-5                Raza                   it                      Raza@gmail.com
+Super Keys:
+Super keys is the key which we just understood in the beginning. All the keys are the super keys in the beginning.
+An attribute or a set of attributes that can be used to identify row of data in a table is a super key.
+For example:
+sid,sname, sbranch 
+combinations would be like :
+sid+regid  regid+email   email+sid   sid+regid+email
+
+Candidate Key:
+it is the minimal subset of super key.
+If any proper subset of a super key is a super key then that key cannot be a candidate key.
+Example;
+like we have the super key "sid+regid+email" from which a super key already exists "regid+email" which is a combination
+like "regid+email" is a cobinational super key and have minimal super keys like "regid", "email" so these are the candidate keys.
+sid,sname, sbranch are the candidate keys.
+
+Primary Key:
+The candidate key choosen to uniquely identify each row of data in a table.
+No two rows can have the same primary key value.
+Pprimary key value annot be a null.
+Every row must have the primary key.
+Example:
+regid is the priamry key in tha above example
+
+Alternate Keys:
+All the other keys except the primary keys are the alternate keys.
+Example:
+regid is the primary key so sname, sbranch, semail are the alternate keys.
+
+Foreign Keys:
+Foreign key establishes the relationship between one table to another table:
+we have already a table 
+SID                  regid                  SName                  SBranch                 SEmail
+1                    1-1-1-1                ali                    Cs                      ali@gmail.com
+2                    2-2-2-2                tom                    se                      tom@gmail.com
+3                    3-3-3-3                doe                    it                      doe@gmail.com
+4                    4-4-4-4                Own                    Cs                      Own@gmail.com
+5                    5-5-5-5                Raza                   it                      Raza@gmail.com
+
+and another table exists like 
+
+Branch Code                 BranchName                   HOD
+Cs                          Computer Science             Asad ali
+IT                          Information Technology       Gohar Mumtaz
+SE                          Software Engineerin          Muhammad Ali
+Cs                          Computer Science             Asad ali
+Here "branch code" is the foreign key.
+we cannot add/update/delete the one table foreign key row without doing it with the other table rows
+
+Composite Keys:
+Any key with more then one attribute is called the attribute key.
+for example: 
+combinations would be like :
+sid+regid  regid+email   email+sid   sid+regid+email        email+sbranch
+
+
+Compound Key:
+If a composite key has at-least one attribute which is a foreign key then it is called the compound key.
+for example:
+email+sbranch
+

@@ -1,0 +1,18 @@
+Three schema architecture involves the following things:
+                                                                                Client
+
+                                                                    1. View Level (View Schema)
+                                                                    2. Logical Level (Conceptual Schema)
+                                                                    3. Physical Level (Physical Schema)
+                                                                                Database
+Explaination:
+View Level Schema:
+On this layer, there exists the views, these views can be representing various aspects as the views represents the clients as the frontend is dealt at this layer.
+Logical Level Schema:
+Logical level schema actually makes the blueprint of the schema that how will the schema will look alike. database is designed at this level by the database designers.
+Physical Schema:
+This level actually represents that what is the actual data like what the actual database data looks alike. location, size of the data is decided on this particular 
+layer. database administrator manages this layer.
+So using these levels the independence of the data is managed like the client usually can access or use the data but do not know how the data is been managed on the database using these 
+levels or the schemas.
+
