@@ -1,0 +1,32 @@
+Introduction
+OpenCV (Open Computer Vision):
+It is the computer vision library in the python.
+Life before openCv:
+1. Coding difficulty (more and complex code was required)
+2. Performance Issues (hence more code was there so more processing power was required)
+3. Lack of standardization (there was no standard set for the common practice, so everyone had its own standard)
+Solution for these problems:
+1. Easy to use functions (relative functions are there to solve the particular problems)
+2. Lightening fast problem (every process started to process fastly)
+3. open source standard (everyone can access the open standard)
+
+In 1999, OpenCV was built adn launched in 2000. It was released in Intel 
+
+OpenCV:
+Open means free source.
+Computer includes laptop, phone, robot, drone, self,driving cars
+Vision includes images, videoes, objects, faces, motion, documents, barcodes, number plates 
+It is like a tool box that helps the computer to see enables the computer for the vision.
+
+-------------------------------------------------------------------------------------------------------------------------
+OpenCV Basics and Image Handling 
+Following are the key terms involved into the image handling:
+
+ 
+
+
+
+
+
+
+
