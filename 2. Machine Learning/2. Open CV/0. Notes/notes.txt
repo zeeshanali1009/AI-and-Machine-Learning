@@ -21,7 +21,21 @@ It is like a tool box that helps the computer to see enables the computer for th
 -------------------------------------------------------------------------------------------------------------------------
 OpenCV Basics and Image Handling 
 Following are the key terms involved into the image handling:
+Image: Image is the matrix that has the pixls in the form of rows and coloumns.
+Pixel:It is the smallest unit in the picture.
+Width and Height: Number of pixels present in the pictures in the form of width and height.
+Color Channels: Color channels involves the gray gradinet and rgb 
+Image Format: It is the format of the image in which the image gets stored such as jpg,png etc
 
+Functions:
+1. imread()
+2. imshow()
+    waitkey()
+    destroyallwindows()
+3. imwrite()
+4. cvtcolor()
+5. image.shape
+    gives height, width, channel
  
 
 
