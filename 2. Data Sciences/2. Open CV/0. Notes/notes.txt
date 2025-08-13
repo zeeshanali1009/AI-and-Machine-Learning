@@ -28,19 +28,34 @@ Color Channels: Color channels involves the gray gradinet and rgb
 Image Format: It is the format of the image in which the image gets stored such as jpg,png etc
 
 Functions:
-1. imread()
+1. imread() invloves flag that tells the compiler in which color mode to load the file
 2. imshow()
     waitkey()
     destroyallwindows()
 3. imwrite()
 4. cvtcolor()
 5. image.shape
-    gives height, width, channel
- 
+    gives height, width, channel      channel provides the information for the pixel that how many colors it has 3 in rgb , 
+    1 in grayscale  and 4 color transparency 
+
+-------------------------------------------------------------------------------------------------------------------------
+Image Transformation and Manipulation Techniques
+1. Resizing and Scaling
+    resize()
+2. Cropping
+    slicing
+3. Drawing shapes
+    lines
+    rectangles
+    circle
+4. Rotation and Flipping
+    Rotation
+    flipping
+5. Adding Text
+    Text placement
+    font selection
 
 
 
 
-
-
-
+    

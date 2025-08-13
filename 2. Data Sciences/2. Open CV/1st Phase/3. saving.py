@@ -1,3 +1,4 @@
+# cv2.imwrite("filename", image)
 import cv2
 
 image   = cv2.imwrite("C:\Users\Zeeshan Ali\Desktop\AI-and-Machine-Learning\2. Machine Learning\2. Open CV\1st Phase\picture.jpg")

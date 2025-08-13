@@ -1,4 +1,6 @@
-import cv2
+# Converts an image from one color space to another.
+# cv2.cvtColor(src, code)
+
 
 image   = cv2.imread("C:\Users\Zeeshan Ali\Desktop\AI-and-Machine-Learning\2. Machine Learning\2. Open CV\1st Phase\picture.jpg")
 

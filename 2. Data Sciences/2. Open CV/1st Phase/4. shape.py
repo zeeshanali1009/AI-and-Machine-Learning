@@ -1,3 +1,7 @@
+# shape attribute returns the follwing things as 
+# Height → number of pixel rows
+# Width → number of pixel columns
+# Channels → number of color components per pixel
 import cv2
 
 image   = cv2.imread("C:\Users\Zeeshan Ali\Desktop\AI-and-Machine-Learning\2. Machine Learning\2. Open CV\1st Phase\picture.jpg")
