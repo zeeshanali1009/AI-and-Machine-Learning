@@ -1,30 +1,25 @@
-# for opening the video or loading it so that we can work with the frames
-# cv2.videocapture(source)
-# 0  if using the laptop webcam 
-# 1 if external webcam is used
-
 import cv2
 
-capture  =  cv2.videocapture(0)
+# For opening the video or loading it so that we can work with the frames
+# cv2.VideoCapture(source)
+# 0  if using the laptop webcam 
+# 1  if external webcam is used
 
-while (True):
-    ret, frame = capture.read()
+capture = cv2.VideoCapture(0)  # Correct: 'VideoCapture', not 'videocapture'
+
+while True:
+    ret, frame = capture.read()  # Read a frame
 
     if not ret:
         print("Could not read.")
         break
 
-    cv2.imshow("Webcam feed", frame)
+    cv2.imshow("Webcam feed", frame)  # Show the live feed
 
-    if cv2.waitkey(1) & 0xFF == ord('q'):       # odd function waits for 1 ms and if q press the loops will be broken
+    # waitKey waits for 1 ms; if 'q' is pressed, loop will break
+    if cv2.waitKey(1) & 0xFF == ord('q'):  # Correct: 'waitKey', not 'waitkey'
         print("Quitting")
         break
 
-capture.release()
-cv2.destroyallwindows()
-
-
-
-
-
-
+capture.release()            # Release the webcam
+cv2.destroyAllWindows()      # Correct: 'destroyAllWindows', not 'destroyallwindows'

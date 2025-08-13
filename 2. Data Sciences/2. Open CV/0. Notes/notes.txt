@@ -73,6 +73,35 @@ Frame is a photo which is the part of the chain of the videos.
 In frame processing every single detection is carried out using the specific frames , hence the frames collectively 
 forms a video.
 used for detection,analyze
+two function will be discussed
+videocapture()
+vieowriter()
+-------------------------------------------------------------------------------------------------------------------------
+Image filtering and Blurring
+On raw image we apply 
+guassian Blurring
+median Blurringsharpening image 
+so the image will become the enhanced image
+Image Filtering:
+changing the pixel (applying the functions on the pixel) depending upon the other pixel.
+Blurring:
+Softening the image so that it looks less sharp.
+Noise :
+unnecessary things on the image like the dots
+Smoothing:
+making sharp and rough areas clean.
+kernel:
+
+Image Filtering:
+        Blurring, Noise , Smoothing , kernel
+Blurring:
+        Guassian blur, median blur, biletral blur, mormal blur
+
+
+
+
+
+
 
 
 

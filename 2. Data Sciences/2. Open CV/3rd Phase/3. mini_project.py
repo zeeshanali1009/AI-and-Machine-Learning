@@ -18,7 +18,7 @@ else:
     print("Invalid choice!")
     exit()
 
-# Step 2: Ask if user wants to save the video
+# Step 2: Ask if user wants to save the videwo
 save_choice = input("Do you want to save the video? (yes/no): ").lower()
 
 if save_choice == "yes":
