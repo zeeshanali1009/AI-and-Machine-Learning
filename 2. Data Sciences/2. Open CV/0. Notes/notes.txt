@@ -105,6 +105,24 @@ Image Thresholding
 converts the complex images into black and white imgages
 Bitwise Operation
 Combines the images or cutting them
+-------------------------------------------------------------------------------------------------------------------------
+Contours and Shape Detection
+
+Finding contours
+Shape detection
+drawing contours
+
+Contours:
+It is the curve that makes the continuous edges in the combined form.
+It is the continuous of finding the continuous edges (edges which have high intensities)
+
+Shape detection:
+approxpolydp() this function is used to detect
+count the edges 
+
+
+
+
 
 
 
