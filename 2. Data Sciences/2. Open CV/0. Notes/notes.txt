@@ -96,6 +96,15 @@ Image Filtering:
         Blurring, Noise , Smoothing , kernel
 Blurring:
         Guassian blur, median blur, biletral blur, mormal blur
+-------------------------------------------------------------------------------------------------------------------------
+Edge Detection and Thresholding
+Used for key extractions.
+Canny Edge Detection:
+extracts the outlines from the image 
+Image Thresholding
+converts the complex images into black and white imgages
+Bitwise Operation
+Combines the images or cutting them
 
 
 
