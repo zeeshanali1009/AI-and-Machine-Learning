@@ -119,6 +119,14 @@ It is the continuous of finding the continuous edges (edges which have high inte
 Shape detection:
 approxpolydp() this function is used to detect
 count the edges 
+-------------------------------------------------------------------------------------------------------------------------
+Face and Object Detection
+Start 
+Haar Cascades (AI Brain)
+    used for face detection, eye detection and face related things
+Draw boxes 
+end
+
 
 
 
