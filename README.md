@@ -6,3 +6,8 @@ First of all ⁵I will covering up the basics of the Python Programming as it is
 Then i will be covering the concepts of AI and ML with full details.
 Then i will be trying to build the unique projects as well
 I have built the sentiment analysis.
+
+0 to Hero AI/ML Learning Learning Procesure
+Basic Maths
+  
+  Derivative as the concept
