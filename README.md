@@ -8,6 +8,9 @@ Then i will be trying to build the unique projects as well
 I have built the sentiment analysis.
 
 0 to Hero AI/ML Learning Learning Procesure
-Basic Maths
-  
+1. Basic Maths
+  Weighted Average, Mean and Sum
+  Percentile, Mean, Median and Mode
   Derivative as the concept
+2. Statistics
+  Probability and Statistics 
