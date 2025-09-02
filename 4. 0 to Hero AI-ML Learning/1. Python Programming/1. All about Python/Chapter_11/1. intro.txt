@@ -1,0 +1,20 @@
+Exception handling is the important part of the programming as we are controlling the errors through this 
+process and there are three types of errors which are as :
+1. Compile time errors
+2. Runtime errors
+3. Logical errors 
+
+
+try  --- except 
+in the try block we are using the block of code in which we suspect that there will be the errors
+in the except block we add the code which will execute in case of the expected error 
+
+
+try   ----except ---- finally 
+in the try block we are using the block of code in which we suspect that there will be the errors
+in the except block we add the code which will execute in case of the expected error 
+the block of code which is in the finally block will always be executed 
+
+nested --- try  --- except 
+it is the nested try except and it will be executed as there are the executions of the nested loops 
+

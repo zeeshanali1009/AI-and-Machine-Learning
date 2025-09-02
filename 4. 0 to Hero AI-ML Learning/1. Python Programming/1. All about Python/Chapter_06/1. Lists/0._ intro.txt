@@ -1,0 +1,10 @@
+lists are the sequential datatypes used to store the data in the sequence
+following are the chracteristics of the lists
+-----mutable         (data can be changed)
+-----ordered         (data is in the order form or indexed)
+-----dynamic         (they are dynamic like data can be inerted at any index)
+-----heterogenuous   (any type of data can be stored)
+
+lists data is enclosed in the square brackets
+
+

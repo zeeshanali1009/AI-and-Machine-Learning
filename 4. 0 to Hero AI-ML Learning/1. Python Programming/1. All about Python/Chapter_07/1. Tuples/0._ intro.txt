@@ -1,0 +1,10 @@
+tuples are the sequential datatypes used to store the data in the sequence
+following are the chracteristics of the lists
+-----immutable         (data cannot be changed)
+-----heterogenuous   (any type of data can be stored)
+
+lists data is enclosed in the paranthesis
+
+
+
+

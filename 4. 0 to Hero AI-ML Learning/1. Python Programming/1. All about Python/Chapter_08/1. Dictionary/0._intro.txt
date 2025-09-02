@@ -1,0 +1,7 @@
+Dictionaries are used to store the data in the form of pairs 
+pairs = key + value 
+
+Chracteristics of the dictionaries:
+mutable
+ordered in the current versions
+dynamic

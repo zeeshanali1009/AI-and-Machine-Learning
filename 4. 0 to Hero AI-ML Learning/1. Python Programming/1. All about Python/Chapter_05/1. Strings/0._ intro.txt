@@ -1,0 +1,11 @@
+strings are the datatype of the python used to store the data into it
+Actually the data is enclosed into the inverted commas
+these are the following chracteristics of the strings:
+
+1. immutable  (cannot be changed although can be replaced)
+2. indexed      (every chracter of it is indexed)
+        further indexing can be done by using the slicing method.
+3. iterable     (strings are iterable)
+
+
+

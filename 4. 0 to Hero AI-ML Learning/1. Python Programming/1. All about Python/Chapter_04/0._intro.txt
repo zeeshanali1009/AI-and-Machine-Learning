@@ -1,0 +1,4 @@
+In python there has been some of the statements which are used to control the flow of the program like 
+if statements , elif statements or else statements
+loops 
+other statements like break, continue and other statementsas well.

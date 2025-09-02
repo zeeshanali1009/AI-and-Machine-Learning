@@ -1,0 +1,50 @@
+Programming:
+Programming is basically a process of giving the instructions to the computer to solve a particular
+problem.
+
+Programming Language:
+It is the language which we use to instruct the computer to solve that particular problem.
+
+Types of Programming Languages:
+1. High Level language
+2. Low Level Language
+
+1. High Level Language:
+It is the language which is for the humans not for the computers have been made for the ease of 
+Humans. It is actually converted to the machine language for the understanding by the computers.
+Examples: C++, Python, C, Java etc
+
+2. Low Level Language:
+It is the language which directly interacts with the hardware specially made for the computer. It 
+is very hard to understand by the Human.
+Examples: Assembly Language etd
+
+Types of Codes:
+1. Source Codes
+2. Object Codes
+
+1. Source Code:
+It is the code which is written by the Human for the interaction with the computer to solve a 
+particular problem.
+Example: The code which we write in languages like Python,C++,Java is the Source code.
+
+2. Object Code:
+It is the code which directly interacts with the hardware for the internal operations.
+Example: The code which is being written min the Assembly language etc 
+
+How many ways are ther for Source Code Translation into Machine Code?
+1. Compiler
+2. Interpreter
+
+1. Compiler:
+It is the tool which converts the source code into the machine code colectively (All at the same 
+time).
+Examples: C++ Source Code Translation.
+
+2. Interpreter: 
+It is the tool which translate the source code into the machine code line by line stops the 
+execution wherever finds the error
+Example: Python Source Code Translation
+
+
+

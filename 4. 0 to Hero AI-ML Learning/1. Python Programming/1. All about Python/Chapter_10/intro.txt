@@ -1,0 +1,14 @@
+Object oriented programming is an important concept use for the better programming approach and removes the 
+previous older approach
+redundancy
+easy modular approach 
+
+There are the two following things in the oop:
+1. properties or attributes  (these are the properties like what are the characteristics)
+2. behaviours or methods (behaviours means how these chracteristics will perform)
+
+There are the 4 important things in the oop
+1. Inheritance   (reusing the properties and methods)
+2. Encapsulation  (controling the access and control)
+3. Abstarction   (hiding the complex details)
+4. Polymorphism  (One particular thing and many shapes)

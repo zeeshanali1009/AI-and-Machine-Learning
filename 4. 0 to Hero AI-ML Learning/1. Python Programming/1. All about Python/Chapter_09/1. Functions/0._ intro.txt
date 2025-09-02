@@ -1,0 +1,5 @@
+functions are being used in the programming languages to use the certain block of code for the multiple times
+there are many  advantages for using the functions:
+-------resuability (code can be reused)
+-------modularity   (modualar approach makes the code easy to understand)
+-------scopping      (scope of the code already defined so can be used wisely)
