@@ -1,0 +1,5 @@
+                                        Comparison
+Broadcasting                                                                  Vectorization
+It expands smaller arrays to large                              Applies the operations on the array at once 
+for matching
+Speeds faster then loop                                         100 times faster then loop
