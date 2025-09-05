@@ -71,7 +71,7 @@ Input layers            Hidden Layers           Output Layers
 
 Types of Neural Network 
 1. Feedforward Neural Network (FNNs):
-Simplest types of neural networks where information flows linearly from the input to the output.
+Simplest types of neural netwo`rks where information flows linearly from the input to the output.
 It is used in the tasks like image classification, speech recognition and NLP.
 2. Convolutional Neural Network (CNNS):
 CNNs are ideal for the image classification, object detection and image detection due to their automatic feature learning from the images.
@@ -79,5 +79,9 @@ CNNs are ideal for the image classification, object detection and image detectio
 RNNs are specialized for the preprocessing sequential data like time series and natural language.
 
 
+Comaprision bw Tensorflow Keras and Pytorch 
+Tensorflow has implemented various levels of abstraction to make implementation easy. This also makes the debugging easy.
+Keras is simple and easy but not as fast as tensorflow. It is more user-friendly then any other deep learning API.
+Pytorch is the preferred deep learning API for teachers but is not widely used in the production as tensorflow faster but lower gpu utilization.
 
 
