@@ -1,6 +1,39 @@
 TensorFlow:
 It ia an open-source machine learning framework developed by the Google Brain team. It's a designed for building and 
 deploying machine learning models with a focus on deep learning applications.
+Developed originally for large numercial alculations.
+Accepts the data in the form of multidimensional arrays of higher dimensions called tensors.
+Works on the basis of data flow graphs that have nodes and edges.
+
+Tensors:
+Tensor is a generalization of vectors and matrices of potentially highr dimensions. Array of data with different dimensions 
+and ranks that are fed as input to the neural network are called tensors.
+Data in the form of arrays is fed as input to the network.
+Tensors exists in the from of different dimenssions like [1], [2,2], [3,3,3]
+Tensor Ranks:
+Rank 0
+s=[200]
+Rank 1
+v= [10,11,12]
+Rank 2
+t  =[[[1],[2],[3]],[[4],[5],[6]],[[7],[8],[9]]]
+Rank 3
+m = [1,2,3],[4,5,6]
+Data flow graphs:
+Each computation in tensorflow is represented as a data flow graph.
+Each node in the graph represents a mathematical operation (add,subtract,multiply) and each edge represents multidimensional array.
+Comuptataional graph is the graph of programming logic which tensorflow builds in the memory.
+It enables creating large scale neural networks as computing can be distributed across several CPU's and GPU's.
+Program Elements in tensorflow:
+1. Constants:
+constants are parameters whose values does not change. to define a constant we use tf.constant() command.
+2. Variable:
+They allow us to add new trainable parameters to graph. To define a variable we use tf.variable() command and initilize them before running the 
+graph in a session.
+3. Placeholder:
+They allow us to feed data to a tensorflow model from outside a model. it permits a value to be assigned later.to define the placeholder we use tf.placeholder().
+4. Session:
+A session  is run to evaluate the nodes. This is also called as the tensorflow runtime.it is launched using the command tf.session().
 
 Advanatages:
 1. Versatile & Flexibility
@@ -9,4 +42,42 @@ Advanatages:
         It provides a rich ecosystem of tools that helps researchers and developers to build and deploy ML models.
 3. Community & Support
         Community provides excellent support through tutorials, forums and github discussions.
+
+Why tensor flows
+1. provides both c++ and python api's that makes it easier to work upon.
+2. has a faster compilation time than other deep learning libraries like keras and torch.
+3. tensorflow supports both CPU's and GPU's computing devices.
+
+
+One hot encoding:
+It is a technique to convert the categorical values into binary vecotor representations.tensorflow provides this feature.
+
+
+Deep Learning:
+Deep learning is the subset of the machine learning in which we have to extract the features manually but in the deep learnig 
+this process is carried out automatically from the raw data which is possible due to the neural networls that contains the multiple
+layers that performs specific functions at each level.
+Type of Deep Learning
+1. Supervised Learning
+2. Unsupervised Learning
+3. Reinforcement Learning
+
+
+
+Artificial Neural Network:
+ANNs are inspired by the structure and function of human neurons, consist of interconnected layers of artificial neurons, or units.
+They contan three parts :
+Input layers            Hidden Layers           Output Layers 
+
+Types of Neural Network 
+1. Feedforward Neural Network (FNNs):
+Simplest types of neural networks where information flows linearly from the input to the output.
+It is used in the tasks like image classification, speech recognition and NLP.
+2. Convolutional Neural Network (CNNS):
+CNNs are ideal for the image classification, object detection and image detection due to their automatic feature learning from the images.
+3. Recurrent Neural Networks (RNNs):
+RNNs are specialized for the preprocessing sequential data like time series and natural language.
+
+
+
 
