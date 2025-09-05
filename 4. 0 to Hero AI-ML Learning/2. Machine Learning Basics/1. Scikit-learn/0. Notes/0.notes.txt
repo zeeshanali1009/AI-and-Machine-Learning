@@ -1,0 +1,12 @@
+TensorFlow:
+It ia an open-source machine learning framework developed by the Google Brain team. It's a designed for building and 
+deploying machine learning models with a focus on deep learning applications.
+
+Advanatages:
+1. Versatile & Flexibility
+        Supports a wide array of algorithms and is adaptable for a variety of tasks.
+2. Ecosysystem & Tools 
+        It provides a rich ecosystem of tools that helps researchers and developers to build and deploy ML models.
+3. Community & Support
+        Community provides excellent support through tutorials, forums and github discussions.
+
