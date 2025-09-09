@@ -1,0 +1,17 @@
+Artifical Intelligence:
+    1. ANI (Artificial Narrow Intelligence)
+        like smart speakers, self driving cars, web search, AI in farming and factories.
+    2. AGI (Artificial General Intelligence)
+        do anything that human can do.
+
+ Artifical Intelligence
+ It is the branch of computer science concerned with development of methods that allows computer to learn without explicit programming.
+ Search algorithms, rule based system, ststistical inference, machine learning.
+    Machine Learning
+    It is the branch of artificial intelligence that can learn from examples and experience instead of relying on hard-coded rules and make predictions on new data.
+    svm, tree algorithms, nearest neighbors, bagging, boosting, deep learning.
+        Deep Learning
+        It is the subfield of machine learning that focuses on neural networks (inspired from biological neurons) to deveelop learning models.
+        fcns, cnns, rnns, transformers, autoencoders, gans
+
+
