@@ -7,7 +7,8 @@ Then I will be covering the concepts of AI and ML with full details.
 Then i will be trying to build the unique projects as well
 I have built the sentiment analysis.
 1. Basic AI/ML Program
-2. Advance AI/ML Program
+2. Data Science Basics
+3. Advance AI/ML Program
 0 to Hero AI/ML Learning Learning Procesure
 1. Basic Maths
   Weighted Average, Mean and Sum
