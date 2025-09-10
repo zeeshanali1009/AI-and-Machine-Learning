@@ -6,7 +6,7 @@ First of all I will covering up the basics of the Python Programming as it is th
 Then I will be covering the concepts of AI and ML with full details.
 Then i will be trying to build the unique projects as well
 I have built the sentiment analysis.
-
+1. Basic AI?ML Program
 0 to Hero AI/ML Learning Learning Procesure
 1. Basic Maths
   Weighted Average, Mean and Sum
