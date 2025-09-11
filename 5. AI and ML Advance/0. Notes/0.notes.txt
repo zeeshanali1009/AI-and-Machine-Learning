@@ -13,5 +13,27 @@ Artifical Intelligence:
         Deep Learning
         It is the subfield of machine learning that focuses on neural networks (inspired from biological neurons) to deveelop learning models.
         fcns, cnns, rnns, transformers, autoencoders, gans
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Samples and datapoints are the same terminologies.
+Neuron:
+Neuron is the most fundamntal part of the deep learning which contains the three basic things: input interconnections and the output.
+Neuron is basically a function that performs a specific function.
+Neurons need great:
+data
+computational power
+well trained algorithms
+
+Artificial intelligence is distributed into two parts
+1. Descriminative (Creates the patterns, descriminate the data, make the seperations, involes the conventional models that deals with structured data better)
+    1. Supervised Learning
+    2. Unsupervised learning
+    3. Reinforcement learning
+2. Generative (generates the information can deal with both structured and unstructured data as well)
+    1. NLP(Natural Language Processing)
+        It deals with the natural language with the text and with the neurons that deals with this sort of data.
+    2. Speech Recognition
+        It deals with the speech,voice related data.
+    3. Computer Vision
+        it deals with the images, videoes.
 
 
