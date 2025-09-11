@@ -36,4 +36,35 @@ Artificial intelligence is distributed into two parts
     3. Computer Vision
         it deals with the images, videoes.
 
+Generative AI Models:
+1. LLM
+    LLMs are the generative pretrained transformers that are too large such as chatgpt 3 had 176 billion parameters/neurons.
+    Tokenization is the most important concept in the NLP which is the process of breaking down the tecxt into the smaller units called the tokens. which 
+    can be words, phrases even the chracters. like it is the vocabulary of the models. token can be single chracter, word or the sentence.
+    like: This is the first step in NLP has the tokens t h i s i s t h e f i r s t .........
+    context window: it is the limit of the model to accept , process, the tokens like gpt has the 4k and so on etc.
+2. Latent Diffusion Models 
+
+
+
+Text Generation
+    chatgpt 3.5/4, bard
+Image Generation
+    Dalle-E3, Stable diffusion
+Music Generation
+    Music-LM
+Video Generation
+    Runway ML, Gen-2
+
+Prompt Engineering:
+A prompt refers to the input or instructions provided to the model to generate a specific response or output.
+Anatomy of Prompt Engineering
+1. Simulate Persona 
+2. Taks
+3. Steps to complete Tasks
+4. Context/Constraints
+5. Goal
+6. Format Output
+
+
 
