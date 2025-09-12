@@ -66,5 +66,12 @@ Anatomy of Prompt Engineering
 5. Goal
 6. Format Output
 
+Tips for Effective Prompt Engineering:
+be explicit: clearly specify the desired format or output.
+provide context: offer relevant information or background to guide the model.
+control output length: instruct the model to generate responses of a specific length.
+restrict responses: utilize techniques like temperature adjustments to refine output quality.
+experiment and iterate: refine prompts through experimentation and feedback loops.
+
 
 
