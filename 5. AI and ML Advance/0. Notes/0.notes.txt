@@ -43,7 +43,20 @@ Generative AI Models:
     can be words, phrases even the chracters. like it is the vocabulary of the models. token can be single chracter, word or the sentence.
     like: This is the first step in NLP has the tokens t h i s i s t h e f i r s t .........
     context window: it is the limit of the model to accept , process, the tokens like gpt has the 4k and so on etc.
-2. Latent Diffusion Models 
+2. Latent Diffusion Models
+    Diffusion means going from high intensity towards the lower intensity (In generic) like the ink drop being fallen on the shirt and then starts to spread slowly.
+    Stable diffusion
+    Latent diffusion model (latent means hidden)
+    Actually when we say that the picture is 1024 x 1024 it means that there are many pixels in it (like in millions) one individual pixel has three colors rgb so there is too much 
+    computation required for the images in the ai field then for the minimization of the computation we use the latent vectors behind that reduces the computation power to 48 times.
+    hence the model is called the diffusion model.
+   
+    Actually the noise is being added into the picture unite time after unit time and then the noise is also removed unit time after the unit time and this complete process is systematic.
+    noise is added                                      noise is removed 
+    forward stable diffusion                            reverse stable diffusion
+    conversion of pixels into the embeddings            conversion of the embeddings to the pixels
+    Encoding                                            Decoding
+
 
 
 
