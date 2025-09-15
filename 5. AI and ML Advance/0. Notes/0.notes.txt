@@ -86,5 +86,10 @@ control output length: instruct the model to generate responses of a specific le
 restrict responses: utilize techniques like temperature adjustments to refine output quality.
 experiment and iterate: refine prompts through experimentation and feedback loops.
 
-
+Servers important parts:
+hard disk 
+ram
+processer
+network 
+these factors decide the performance of the server being in use.
 
