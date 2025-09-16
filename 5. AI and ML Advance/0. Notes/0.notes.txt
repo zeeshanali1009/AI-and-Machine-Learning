@@ -94,4 +94,5 @@ network
 these factors decide the performance of the server being in use.
 
 API (Application programming interface)
+API acts as an intermediate or we can say the medium between two channels for the effective communication.
 
