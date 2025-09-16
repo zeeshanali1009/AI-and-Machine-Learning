@@ -98,3 +98,5 @@ API acts as an intermediate or we can say the medium between two channels for th
 like we use the open ai  api keys for the differnent type of models execution like for the LLM related models.
 API keys are very sensitive. It is very important to keep them in secret. we keep them in the secret for saving
 ourself from the execessive cost expenditures.
+openai is not free it charges specific smount of money but the hugging face can provide almost similar sort of 
+functionalities free of cost.
