@@ -93,3 +93,5 @@ processer
 network 
 these factors decide the performance of the server being in use.
 
+API (Application programming interface)
+
