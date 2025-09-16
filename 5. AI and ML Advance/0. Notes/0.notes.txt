@@ -96,4 +96,5 @@ these factors decide the performance of the server being in use.
 API (Application programming interface)
 API acts as an intermediate or we can say the medium between two channels for the effective communication.
 like we use the open ai  api keys for the differnent type of models execution like for the LLM related models.
-API keys are very sensitive. It is very important to keep them in secret.
+API keys are very sensitive. It is very important to keep them in secret. we keep them in the secret for saving
+ourself from the execessive cost expenditures.
