@@ -131,6 +131,24 @@ like trnaslation between two countrymen individuals we need the translater that 
 third country comes in the translater gets failed.
 similarly coda gets failed in the translation if the gpu other then nvidia comes in.
  
+data  science:
+extracting knowledge and insights by finding the patterns from the data.
+data science processes:
+1. acquire
+2. prepare (eda) 
+3. analyze
+single attribute
+mean    -------->  measure of dispersion ----------------> variance , std.deviation
+median  ---------> measure of dispersion ---------------> quartiles , inter-quartile range
+more then single attributes
+measure of proximity --------------> dot product, cross product etc 
+
+symmetric
+asymmetric (positively skewed , negatively skewed)
+
+
+
+
 
 
 
