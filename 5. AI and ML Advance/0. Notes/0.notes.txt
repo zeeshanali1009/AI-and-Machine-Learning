@@ -168,9 +168,19 @@ minmax (min max value from data dealing with remaining values)
 decimal scaling (dealing with point values in the floating numbers)
 
 
- 
+bagging and boosting
 
+regression analysing
+mse(mean squared error) 
+rmsa (root mean squared analysis)
+residual analysis (analysing overfitting and underestimating)
 
+classification analysing
+confusion matrix
+precesion
+recall
+accuracy
+f1-score 
 
 
 
