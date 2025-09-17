@@ -137,6 +137,7 @@ data science processes:
 1. acquire
 2. prepare (eda) 
 3. analyze
+4. report
 single attribute
 mean    -------->  measure of dispersion ----------------> variance , std.deviation
 median  ---------> measure of dispersion ---------------> quartiles , inter-quartile range
@@ -147,6 +148,12 @@ symmetric
 asymmetric (positively skewed , negatively skewed)
 
 
+techniques for the dimensionality reductiomn:
+1. pca (principal component analysis)
+it uses linear algebra techniques 
+igenty composition
+singular value decomposition
+2. t- stochastic neighbor embedding
 
 
 
