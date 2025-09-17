@@ -155,6 +155,22 @@ igenty composition
 singular value decomposition
 2. t- stochastic neighbor embedding
 
+techniques to be applied on the data:
+aggregation (aggregating the aspects from the data)
+smoothing (arranging the data into the particular or clean pattern)
+discretization (converting the data into the categories)
+feature extraction (extracting meaningful feature from the existing ones)
+data transfromation (normalization)
+
+normalization types
+z score / standard  (mean and std.deviation application)
+minmax (min max value from data dealing with remaining values)
+decimal scaling (dealing with point values in the floating numbers)
+
+
+ 
+
+
 
 
 
