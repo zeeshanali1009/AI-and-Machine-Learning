@@ -100,3 +100,37 @@ API keys are very sensitive. It is very important to keep them in secret. we kee
 ourself from the execessive cost expenditures.
 openai is not free it charges specific smount of money but the hugging face can provide almost similar sort of 
 functionalities free of cost.
+
+pipeline:
+pipeline is a terminology in the data science which is used to represent all the processes like 
+model training 
+model prediction 
+visual presentation of the prediction
+
+pipelines are already built like trained models present in the hugging face.
+
+name entity recognition:
+recognition of the named entity from the text is called teh name entity recognition. an important step is the text summarization.
+also used for the blind people in the glasses, driverless cars 
+In image classification moels give the top 5 labels which are called top 5 accuracy 
+
+pytorch
+used for the matrix/tensors multiplication operations that can run parallelely.
+difference between cpu and gpus:
+suppose you have the problem to find the sum of two numbers for 1000 different people and in cpu there are around 8 or 16 or 32 cores/processors 
+which are capacity/ability wise very much capable enough on the other hand gpu has 2000 cores/processors (a very simple one )
+but they will solve the problem faster then the cpu because the resources are more as comapred to the cpu like for eample 
+for the same problem you have 1000 matric students and 8 phd teachers so, who will solve it faster? obviously matric students because they can 
+performance the task parallely and phd teacher will do it step wise although they are more capable.
+
+exactly the same way for using the gpu we need the resources system wise and for openai we need the cost.
+coda:
+coda is the medium or translater of the pytorch that is built only for the nvidia gpus for the translation of the specifi task fro the translation 
+between the processor and the model.
+like trnaslation between two countrymen individuals we need the translater that translater knows only the language of two specific countries now if the 
+third country comes in the translater gets failed.
+similarly coda gets failed in the translation if the gpu other then nvidia comes in.
+ 
+
+
+
