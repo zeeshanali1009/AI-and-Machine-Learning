@@ -188,7 +188,8 @@ machine learning techniques:
             it is the binary classification technique like it predicts the data into two categories like 0 or 1 or we can say a cat or non-cat. its name is confusing like the logistic
             regression because it involves the numeric values involves into it like this technique uses the numeric value to represent the nominal data for instance predicting whether
             it is cat or non cat by mapping it with the values like 0 and 1. if it is cat it will be in the category of 1 and if it is non cat it will be in the category 0. In regression,
-            the numeric values ranges from -inf to +inf. but in the logistic regression the values ranges from 0 to 1.
+            the numeric values ranges from -inf to +inf. but in the logistic regression the values ranges from 0 to 1. Actually there involves the activation function (sigmoid function) that
+            coverts the nominal data into the binary values for the model to carry out its specific functionalities.
         2. decision tree classifier
             decision tree classifier applies better on the structured data the data is structured in the form of tree based on the features or attributes present in the data available.
             a main featur/attribute is kept at the root node the feature which can categorize the data into two main categories moving towards the purity of the data. tree involves the
@@ -196,9 +197,37 @@ machine learning techniques:
             towards the main decision.
         3. random forest classifier
             random forest classifier is also one of the technique which is based on the decision tree classifier.multiple decision trees are being used in the random forest to move towards 
-            the main decision to be predicted. actually all the decision trees are being executed parallely and the single decision is being carried out in the end
+            the main decision to be predicted. actually all the decision trees are being executed parallely and the single decision is being carried out in the end. it processes like the 
+            vooting process the output which have more dominance or more existence is the result in the end.
         4. grading boosting classifier
             this technique also involves the decision trees execution in it but they are carried out sequentially like step by step. in the end the result involves the performance of all the 
             trees if one tree has made some mistakes then the next tree removes the mistakes from the previous tree and this process gets improved and improved and hence the process is very 
             significant. it is most efficient technique for the classification.
 
+    regression techniques:
+    1. linear regression
+        linear regression is first technique for the regression as it predicts the numeric values on the base of given numeric values. basically a graph is plotted using the given 
+        o predict the given value numeric values and then it i tried to plot the regression line where the maximum data points exist. that line is called in mathematics y = mx+c.
+        this line helps then a function is made in mathematics f(x)= wx+b this function helps us to find the value. actually the cost/loss function is used to predict the value by 
+        fine tunning  actually the w is being put into the function then the answer of wx is extracted and then the difference between the predicted and actual value is extracted 
+        more is the difference means the value being put into is wrong and needs to be changed so value is changed and this process is being carried out in the iterations called the 
+        fine tunning of the model.
+            Types of regression line:
+                linear regression line
+                polynomial regression line
+            Types of regression model:
+                univariant regression
+                    if the regression model is made based on the single feature/attribute/variable.
+                multivariet regression
+                    if the regression model is made based on the multiple features/attributes/variables.
+    2. decision tree regressor
+        decision tree regressor is also one of the regression technique each node categorize the data into the numeric ranges then the leaves of the trees represents the average score 
+        or the final predicted score.
+    3. random forest regressors
+        random forest regressors involves the decision trees being carrying out their functionalities in a parallel fashion (like the vooting process). 
+    4. grading boosting regressors
+        grading boosting regressors involves the decision trees functionalities being carried out in a sequence fashion.
+evaluation of the model:
+residual analysis (the difference between the actual value and predicted value)
+root squared error
+root mean squared error
