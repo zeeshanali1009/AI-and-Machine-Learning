@@ -233,10 +233,22 @@ root squared error
 root mean squared error
 
 Evaluation metrics
+    point metrics
+    summary metrics
 accuracy
 precision (it is the evaluation metrics that determines that how many predicted values are right from the overall predicted values)
 recall (it is the evaluation metrics that determines that how many predicted values are right from the actual values)
+    true positive rate
+    tru negative rate 
 confusion metrics
+roc - auc 
+
+
+deep learning
+short comings / limitations of the conventional machine learning 
+manual feature extraction
+cannot deal with the unstructured data or cannot deal with the unstructured data better
+cannot deal with high dimensional data
 
 
 
