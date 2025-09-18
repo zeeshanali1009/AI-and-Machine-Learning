@@ -182,6 +182,23 @@ recall
 accuracy
 f1-score 
 
-
-
+machine learning techniques:
+    classification techniques:
+        1. logistic regression
+            it is the binary classification technique like it predicts the data into two categories like 0 or 1 or we can say a cat or non-cat. its name is confusing like the logistic
+            regression because it involves the numeric values involves into it like this technique uses the numeric value to represent the nominal data for instance predicting whether
+            it is cat or non cat by mapping it with the values like 0 and 1. if it is cat it will be in the category of 1 and if it is non cat it will be in the category 0. In regression,
+            the numeric values ranges from -inf to +inf. but in the logistic regression the values ranges from 0 to 1.
+        2. decision tree classifier
+            decision tree classifier applies better on the structured data the data is structured in the form of tree based on the features or attributes present in the data available.
+            a main featur/attribute is kept at the root node the feature which can categorize the data into two main categories moving towards the purity of the data. tree involves the
+            nodes and leaves nodes represent the features and the leaves represents the decision being made. decision is made on each node to categorize the data further and moving 
+            towards the main decision.
+        3. random forest classifier
+            random forest classifier is also one of the technique which is based on the decision tree classifier.multiple decision trees are being used in the random forest to move towards 
+            the main decision to be predicted. actually all the decision trees are being executed parallely and the single decision is being carried out in the end
+        4. grading boosting classifier
+            this technique also involves the decision trees execution in it but they are carried out sequentially like step by step. in the end the result involves the performance of all the 
+            trees if one tree has made some mistakes then the next tree removes the mistakes from the previous tree and this process gets improved and improved and hence the process is very 
+            significant. it is most efficient technique for the classification.
 
