@@ -250,6 +250,10 @@ manual feature extraction
 cannot deal with the unstructured data or cannot deal with the unstructured data better
 cannot deal with high dimensional data
 
+deep learning is the non-linear model 
+it involves the neural networks inside it also involves the two main processes in it forward propogation and the second one is the reverse/backward propogation.
+prediction is made in the forward propgation while the training is being carried out in the backward propogation.
+
 
 
 
