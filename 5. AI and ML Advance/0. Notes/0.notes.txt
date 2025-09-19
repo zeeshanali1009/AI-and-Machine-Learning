@@ -265,12 +265,20 @@ hyper parameters are controlled by the experience of the developer they totally 
         limited feature extraction 
 2. convolutional neural network
     concept:
+        cnns are used for the pictures images specifically.
         actually the convolution is applied, in the convolution a specific sized filter is applied on the image matrix thus giving the feature map this process is called the 
         covoution and then this feature map is the main output then the pooling is applied (summary process ). then there is the fully connected neural network and the output
         which is called the head.
         pooling (it is the process of getting the most important features from the given dataset)
         padding (adding the extra layers to make the feature extraction process more accurate)
         strides (way of running the filters on the input image matrix)
+       covolutionalneural network 1 d can also work on the time seeies data.
+3. Auto encoders
+     concept
+        it involves the two parts wncoder and decoder actually it makes the structural summary of the data that can be 
+        reverse ro the previous original position also.
+        Auto encoder is the identity dunction actually (the function which gives the same output as the input was                provided).
+
 
 
 
