@@ -277,7 +277,7 @@ hyper parameters are controlled by the experience of the developer they totally 
      concept
         it involves the two parts wncoder and decoder actually it makes the structural summary of the data that can be 
         reverse ro the previous original position also.
-        Auto encoder is the identity dunction actually (the function which gives the same output as the input was                provided).
+        Auto encoder is the identity dunction actually (the function which gives the same output as the input was provided).
 
 
 
