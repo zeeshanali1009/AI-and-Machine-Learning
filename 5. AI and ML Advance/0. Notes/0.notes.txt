@@ -267,7 +267,10 @@ hyper parameters are controlled by the experience of the developer they totally 
     concept:
         actually the convolution is applied, in the convolution a specific sized filter is applied on the image matrix thus giving the feature map this process is called the 
         covoution and then this feature map is the main output then the pooling is applied (summary process ). then there is the fully connected neural network and the output
-        which is called the head
+        which is called the head.
+        pooling (it is the process of getting the most important features from the given dataset)
+        padding (adding the extra layers to make the feature extraction process more accurate)
+        strides (way of running the filters on the input image matrix)
 
 
 
