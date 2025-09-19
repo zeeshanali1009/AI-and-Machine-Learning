@@ -254,7 +254,9 @@ deep learning is the non-linear model
 it involves the neural networks inside it also involves the two main processes in it forward propogation and the second one is the reverse/backward propogation.
 prediction is made in the forward propgation while the training is being carried out in the backward propogation.
 
-
+parameters and hyper parameters
+parameters are the features that is learned from the data by the model
+hyper parameters are controlled by the experience of the developer they totally controlled by the developer but have direct effect on the models.
 
 
 
