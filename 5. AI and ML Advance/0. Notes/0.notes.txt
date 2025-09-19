@@ -259,7 +259,15 @@ parameters are the features that is learned from the data by the model
 hyper parameters are controlled by the experience of the developer they totally controlled by the developer but have direct effect on the models.
 
 
-
+1. fully connected neural network fcn, standard neural network , artificial neural network , dense neural network 
+    limitation:
+        increased size of biases and weights in the calculation process (extensive compute required for forward pass and reverse pass )
+        limited feature extraction 
+2. convolutional neural network
+    concept:
+        actually the convolution is applied, in the convolution a specific sized filter is applied on the image matrix thus giving the feature map this process is called the 
+        covoution and then this feature map is the main output then the pooling is applied (summary process ). then there is the fully connected neural network and the output
+        which is called the head
 
 
 
