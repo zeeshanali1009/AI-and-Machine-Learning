@@ -245,10 +245,10 @@ roc - auc
 
 
 deep learning
-short comings / limitations of the conventional machine learning 
-manual feature extraction
-cannot deal with the unstructured data or cannot deal with the unstructured data better
-cannot deal with high dimensional data
+-short comings / limitations of the conventional machine learning 
+-manual feature extraction
+-cannot deal with the unstructured data or cannot deal with the unstructured data better
+-cannot deal with high dimensional data
 
 deep learning is the non-linear model 
 it involves the neural networks inside it also involves the two main processes in it forward propogation and the second one is the reverse/backward propogation.
