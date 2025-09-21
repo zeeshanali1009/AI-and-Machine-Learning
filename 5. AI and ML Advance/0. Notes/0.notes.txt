@@ -299,6 +299,14 @@ hyper parameters are controlled by the experience of the developer they totally 
 generalization:
 if the model gives the correct data on the unseen data as well so this concept is called the generaLization.
 
+RNN (Recurrent neural network)
+these neural networks work upon the time series data or the structured data. in rnn the most important role is of the neurnon that stores the information about the context
+types of rnns (actually there is the storage process of the context more long is the context storage more reliable it becomes so to resolve this problem we have two types of the rnn ) 
+1. grn  (gateway recurrent network) a specific gateway is introduces to reduces the information to be stored in the context
+2. lstm (long short term memory) it sotores the short term memory for the long time thus improves the context as well.
+
+
+
 
 
 
