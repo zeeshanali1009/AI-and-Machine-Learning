@@ -292,6 +292,12 @@ hyper parameters are controlled by the experience of the developer they totally 
 
         regularization like dropout example 
 
+        loss monitoring
+        restruction loss 
+        kl divergence loss
+ 
+generalization:
+if the model gives the correct data on the unseen data as well so this concept is called the generaLization.
 
 
 
