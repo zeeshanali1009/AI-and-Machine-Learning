@@ -323,6 +323,18 @@ assigns the numbers to
 the text for the embeddings
 purposes
 
+there exists some problems like 
+information overload era
+less information about the certain context 
+so these above problems are solves by the rag or by fine tunning
+rag (raw augmented generation)
+langchain acts as the bridge bw nlp and dataset.
+rag pipeline:
+ingestion                                                   retrieval                               synthesis
+document procesing into the chunks                          query-index-response                    response
+
+
+
 
 
 
