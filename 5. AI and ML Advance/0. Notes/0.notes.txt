@@ -314,7 +314,15 @@ there exists always the variable sequence which is detected by the llms usually 
 
 embedding vectors:
 actually the embedding vectors are the representation in the form of numbers of the raw data.
+
 Transformers uses the self attentions.
+certain input -------------------- certain output
+encoder block -------------------- decoder block
+positional Encoding----------------- masking
+assigns the numbers to
+the text for the embeddings
+purposes
+
 
 
 
