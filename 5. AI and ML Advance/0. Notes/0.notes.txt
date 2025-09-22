@@ -348,6 +348,18 @@ mml (maximum marginal retrieval/relevance)
 retriever
 it is the interface that acts as the medium for dealing with the content of the vector store.
 
+chains:
+involes the following actions
+stream invoke branch
+runnable 
+runable parrallel
+prompt template  (few short prompt template, chat prompt template )
+itemgetter
+python function that is used to get the specific key's value from the specific dictionary.
+output parser
+it actually specifies the format of the output to be dispalyed.
+
+
 
 
 
