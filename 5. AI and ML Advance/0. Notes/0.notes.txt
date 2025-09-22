@@ -307,6 +307,14 @@ types of rnns (actually there is the storage process of the context more long is
 
 Attention models (seq2seq models):
 they takes only the important data summerical data.
+types of attention models are self attention and multi-head attention(have the more heds to understand the context in the llm)
+
+variable sequence:
+there exists always the variable sequence which is detected by the llms usually n-gram helps to detect the variable sequence. it adds the paddiding in the sequence like it adds the empty places in the given sequence.
+
+embedding vectors:
+actually the embedding vectors are the representation in the form of numbers of the raw data.
+Transformers uses the self attentions.
 
 
 
