@@ -334,6 +334,19 @@ ingestion                                                   retrieval           
 document procesing into the chunks                          query-index-response                    response
 
 
+vector stores:
+faiss, etc
+these are the stores to store the embeddings or the vector form of the data
+vector stores that deals with the words better but not deal with the query better
+svm     matching the words and maintains the longest possible context by reducing the matching words upto one
+tf/ide  take the most repeated words or the diversed data only
+finding vectors mechanism
+cosine similarity 
+dot product 
+mml (maximum marginal retrieval/relevance)
+
+retriever
+it is the interface that acts as the medium for dealing with the content of the vector store.
 
 
 
