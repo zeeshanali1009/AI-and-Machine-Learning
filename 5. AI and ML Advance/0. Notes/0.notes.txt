@@ -363,6 +363,8 @@ it actually specifies the format of the output to be dispalyed.
 semantic search:
 it is one of he most important aspect of the rag system as it is used to find the content which is very much same to each other hence makes the rag system bery effective.
 
+hugging face is also one of the imprtnat platform for the model building purpose as it is used to getc the importnat model into the action
+
 
 
 
