@@ -359,7 +359,7 @@ python function that is used to get the specific key's value from the specific d
 output parser
 it actually specifies the format of the output to be dispalyed.
 
-
+retriever plays the important role acts as the medium to make the rag system into the action.
 semantic search:
 it is one of he most important aspect of the rag system as it is used to find the content which is very much same to each other hence makes the rag system bery effective.
 
