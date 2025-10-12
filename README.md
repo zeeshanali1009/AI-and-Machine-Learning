@@ -8,7 +8,7 @@ Then i will be trying to build the unique projects as well
 I have built the sentiment analysis.
 1. Basic AI/ML Program (with notes)
 2. Data Science Basics
-3. Advance AI/ML Program
+3. Advance AI/ML Program (with notes)
 0 to Hero AI/ML Learning Learning Procesure
 1. Basic Maths
   Weighted Average, Mean and Sum
