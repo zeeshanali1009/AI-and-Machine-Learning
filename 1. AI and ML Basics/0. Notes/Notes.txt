@@ -8,7 +8,7 @@ Machine Learning:
 experiences. Model gets trained over the new data and this process is kept repeating time to time."
 
 Deep Learning:
-"It is the branch of the machine learning that works on the specific functions that sre called neurons as the neurons
+"It is the branch of the machine learning that works on the specific functions that are called neurons as the neurons
 are being designed to carry out the specific functionality."
 
 Note:
