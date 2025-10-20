@@ -26,7 +26,7 @@ Diffusion models if there is the dealing with the images
 Stable Diffusion:
 Role of encoders and the decoders for the image generation as the working is being carried out on the pixel and 
 the image is being cleared using this process. Image can also go back to the its original position as this process 
-is being used in the security purposes for the theif detection.
+is being used in the security purposes for the theft detection.
 
 Encoders and decoders works collectively to make the Transformers.
 
