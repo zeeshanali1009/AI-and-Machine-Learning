@@ -985,4 +985,6 @@ flexibility, for research and production
 Versatile tools 
 used for the computer vision and NLP
 
+rag systems are very important and playing great role in ai and ml as well.
+
 
