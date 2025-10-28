@@ -267,7 +267,7 @@ the average of the target variable.
 for example you have 100 different records of the players and you have given these records to the 5 categories
 of differnt people (0-25), (26,50), (51,75), (76,100). Now you can get the score of the individual player easily
 by calling the group which have the record of that particular player.
-Like it is in this pattern:
+Like it is in this pattern for further:
                                          0
                                        *  *
                                       *     *
