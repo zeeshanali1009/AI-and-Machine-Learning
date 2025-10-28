@@ -283,6 +283,7 @@ prediction (for regression) from all individual trees
 for example: Suppose you are in a sitting of 10 differt people and you have to make the decision on one particular
 thing then you have 10 differnt people for the advice purposes and there advice also acts as the vote
 in the form of pattern it would be like:
+look below For further 
                                         x
                                        *  *
                                       *     *
