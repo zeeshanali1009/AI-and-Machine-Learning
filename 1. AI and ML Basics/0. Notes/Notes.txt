@@ -181,7 +181,7 @@ Logistic Regression(classification):
 It is a type of analysis for predicting the binary outcomes (two categories) 
 For example: predicting whether a student will pass (1) or the student will fail(0).
 having some sort of probability.
-Graph:
+Graphical explanation:
                               |
                             1 |__________________******_______
       Dependent               |
