@@ -897,7 +897,7 @@ The place where the data in the form of vectors is stored.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                               Differnce
-Simple/Traditional Database                                                                    Vector Database
+Simple/Traditional Database:                                                                   Vector Database
 Simple database stores the data as it is                                                       Vector database stores the data in the numeric form
 means the data is stored in the raw form                                                       Raw form of the data gets converted into the numeric form.
 the form in which it exists , gets stored                                                      These numeric forms are actually the embeddings.                                                           
