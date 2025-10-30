@@ -574,7 +574,7 @@ ReLU (Rectified Linear Unit)
 Softmax
 
 
-Binary classification   results the two outcomes either it is 0(no) or it is 1 (yes)
+Binary classification results the two outcomes either it is 0(no) or it is 1 (yes)
 For example: Sigmoid results into 0  or 1.
 sigmoid is the logistic regression
 but if we have the multi classes like we want to identify the multiple shapes then here the sigmoid cannot work 
