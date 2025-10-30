@@ -482,7 +482,7 @@ the loss function gradually).
 for example : Imagine a student correcting mistakes after every exam. By the end, their performance is more refined.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-Tensor Flow
+Tensor Flow:
 We have studied the conventional machine learning uptill now. They cannot process the raw data.This is one of the 
 limitation (constraint) of the conventional learning.ML models (regressors, classifiers, random forest ,trees) 
 find much difficult to handle the structure data.
